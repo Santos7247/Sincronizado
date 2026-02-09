@@ -6,4 +6,4 @@ Os seguintes elementos compõem um comando Linux:
 ---
 # Gerenciamento de arquivos e diretórios
 
-
+> **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, 
