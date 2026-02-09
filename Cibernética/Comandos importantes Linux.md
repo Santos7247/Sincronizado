@@ -23,3 +23,9 @@ cd /home/usuario/documentos
 - **cd..** : para subir um diretório acima
 - **cd ~**: para acessar a pasta do usuário logado
 - **cd -**: para retornar para diretórios anteriores
+
+> **pwd** - revela o caminho completo do seu diretório atual.
+~~~~bash
+pwd -L
+~~~~
+- **pwd -L** : imprime o conteúdo d
