@@ -8,14 +8,13 @@ Os seguintes elementos compõem um comando Linux:
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
 ~~~~bash
-ls/home/username/documents
+ls /home/username/documents
 ~~~~
 - **ls -R**: visualiza conteúdos dos subdiretórios
 - **ls -l**: exibe uma lista detalhada
 - **ls -a**: mostra os arquivos ocultos
 
 > **cd** - usado para navegar entre diretórios e modificá-los.
-
 ~~~~bash
 cd /home/usuario/documentos
 ~~~~
@@ -28,4 +27,5 @@ cd /home/usuario/documentos
 ~~~~bash
 pwd -L
 ~~~~
-- **pwd -L** : imprime o conteúdo d
+- **pwd -L**: imprime o conteúdo da variável do ambiente
+- **pwd -P**: mostra o caminho real do diretório atual sem links simbólicos
