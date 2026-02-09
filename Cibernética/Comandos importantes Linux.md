@@ -10,15 +10,14 @@ Os seguintes elementos compõem um comando Linux:
 ~~~~bash
 ls /home/username/documents
 ~~~~
-- **ls -R**: visualiza conteúdos dos subdiretórios
-- **ls -l**: exibe uma lista detalhada
-- **ls -a**: mostra os arquivos ocultos
+- **-R**: visualiza conteúdos dos subdiretórios
+- **-l**: exibe uma lista detalhada
+- **-a**: mostra os arquivos ocultos
 
 > **cd** - usado para navegar entre diretórios e modificá-los.
 ~~~~bash
 cd /home/usuario/documentos
 ~~~~
-
 - **cd..** : para subir um diretório acima
 - **cd ~**: para acessar a pasta do usuário logado
 - **cd -**: para retornar para diretórios anteriores
@@ -27,5 +26,16 @@ cd /home/usuario/documentos
 ~~~~bash
 pwd -L
 ~~~~
-- **pwd -L**: imprime o conteúdo da variável do ambiente
-- **pwd -P**: mostra o caminho real do diretório atual sem links simbólicos
+- **-L**: imprime o conteúdo da variável do ambiente
+- **-P**: mostra o caminho real do diretório atual sem links simbólicos
+
+> **mkdir** - para utilizar esse comando é necessário que o usuário tenha permissão para criar novas pastas. É usado para criar um ou mais diretórios abaixo do diretório local.
+
+~~~~bash
+mkdir novo_diretorio
+~~~~
+- **-p**: cria todos os níveis necessários de uma vez
+~~~~bash
+mkdir -p pasta1/pasta2/pasta3
+~~~~
+- **-m**: configura a permissão do diretório criado e cria pastas com base nessa permissão
