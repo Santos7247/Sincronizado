@@ -39,6 +39,7 @@ mkdir novo_diretorio
 mkdir -p pasta1/pasta2/pasta3
 ~~~~
 - **-m**: configura a permissão do diretório criado e cria pastas com base nessa permissão
+	- 
 ~~~~bash
 mkdir -m 700 segredo
 ~~~~
