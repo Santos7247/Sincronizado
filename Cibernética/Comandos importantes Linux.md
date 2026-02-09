@@ -43,10 +43,12 @@ mkdir -p pasta1/pasta2/pasta3
 mkdir -m 700 segredo
 ~~~~
 
+
 | Modo | Permissão | Descrição |
 | ---- | --------- | --------- |
 | 777  | l         |           |
 | 755  |           |           |
 | 700  |           |           |
 | 644  |           |           |
+|      |           |           |
 
