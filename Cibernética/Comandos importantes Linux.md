@@ -10,4 +10,8 @@ Os seguintes elementos compõem um comando Linux:
 ~~~~bash
 ls/home/username/documents
 ~~~~
+- **ls -R**: visualiza conteúdos dos subdiretórios
+- **ls -l**: exibe uma lista detalhada
+- **ls -a**: mostra os arquivos ocultos
+
 
