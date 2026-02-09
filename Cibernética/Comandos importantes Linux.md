@@ -14,4 +14,12 @@ ls/home/username/documents
 - **ls -l**: exibe uma lista detalhada
 - **ls -a**: mostra os arquivos ocultos
 
+> **cd** - usado para navegar entre diretórios e modificá-los.
 
+~~~~bash
+cd /home/usuario/documentos
+~~~~
+
+- **cd..** : para subir um diretório acima
+- **cd ~**: para acessar a pasta do usuário logado
+- **cd -**: para retornar para diretórios anteriores
