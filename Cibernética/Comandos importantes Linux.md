@@ -52,4 +52,10 @@ rmdir [opções]
 
 > **rm** - apaga permanentemente todos os arquivos contidos em um diretório.
 - **-i**: solicita a confirmação do sistema antes de fazer uma exclusão
-- **
+- **-f**: permite que o sistema exclua arquivos sem solicitar confirmação
+- **-r**: exclui arquivos e diretórios recursivamente
+~~~~bash
+rm nome_do_arquivo
+~~~~
+
+> **
