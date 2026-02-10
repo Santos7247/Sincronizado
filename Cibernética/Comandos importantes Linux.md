@@ -228,8 +228,16 @@ wc [opção] texto.txt
 cut [opção] arquivo.txt
 
 # Pegar apenas os nomes de usuário no arquivo /etc/passwd
+# -d ":" define que os dois pontos são o separador
+# -f diz para pegar o primeiro campo
 
 cut -d ":" -f 1 /etc/passwd
+
+# Pega apenas os primeiros 5 caracteres de cada linha
+
+cut -c 1-5 arquivo.txt
+
+# 
 ~~~
 - **-b**: seleciona apenas os bytes de cada linha
 - **-c**: seleciona apenas os caracteres de cada linhas
