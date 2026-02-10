@@ -438,5 +438,14 @@ ip links ls up
 
 # Atribuir um IP manualmente a uma interface
 
-sudo ip addr d
+sudo ip addr add 192.168.1.50/24 dev eth0
+
+# Remover um endereço IP
+
+sudo ip addr del 192.168.1.50/24 dev eth0
+
+# Ligar ou desligar uma interface
+
+sudo ip link set eth0 up
+sudo ip link set eth0 down
 ~~~
