@@ -412,7 +412,14 @@ curl -C - -O https://exemplo.com
 ~~~bash
 wget https://exemplo.com/arquivo.zip
 
-# Salvar cio 
+# Salvar com nome diferente
+
+wget -O meu_nome.zip https://exemplo.com
+
+# Espelhar um site inteiro
+
+wget -m https://site-estatico.com
 ~~~
 - **-b**: para realizar o download em segundo plano
 - **-O**: faz o download e salva o arquivo com outro nome
+- **-m**: cria uma cópia local completa para navegação offline
