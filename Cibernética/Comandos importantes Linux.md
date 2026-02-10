@@ -354,4 +354,16 @@ uptime
 > **apt get** - ferramenta que pode ser utilizada para gerenciar, atualizar, pesquisar, instalar e desinstalar pacotes em um sistema. Só disponível nas distribuições Linux derivadas do Debian, como o Ubuntu, por exemplo.
 ~~~bash
 # Atualiza a lista de pacotes disponíveis nos repositórios
+
+sudo apt-get update
+
+# Verifica todos os pacotes do sistema, faz download das atualizações disponíveis e executa a isntalação delas em cada pacote
+
+sudo apt-get upgrade
+
+# Instala um ou mais pacotes
+
+sudo apt-get install pacote1 pacote2
+
+# Remove
 ~~~
