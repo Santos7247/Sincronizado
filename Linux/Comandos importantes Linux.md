@@ -371,4 +371,9 @@ sudo apt-get remove
 ~~~
 # Rede
 
-> **ping** - 
+> **ping** - tem como função a verificação da conectividade da rede, mas também pode ser usado para resolver problemas de conexão.
+~~~bash
+ping [opção] [nome_do_herdeiro_ou_endereço_IP]
+
+
+~~~
