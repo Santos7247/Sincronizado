@@ -131,3 +131,7 @@ cat arquivo_origem.txt >> arquivo_destino.txt
 ~~~bash
 less arquivo.txt
 ~~~
+- **Setas (cima/baixo)**: sobe ou desce uma linha
+- **Espaço**: desce uma página inteira
+- **b**: volta uma página
+- **G**: 
