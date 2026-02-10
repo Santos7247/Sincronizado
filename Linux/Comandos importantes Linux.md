@@ -375,5 +375,11 @@ sudo apt-get remove
 ~~~bash
 ping [opção] [nome_do_herdeiro_ou_endereço_IP]
 
+# Realiza uma determinada quantidade de pings
 
+ping -c 4 8.8.8.8
+
+# Envia um pacote a cada tempo estabelecido (2 segundos)
+
+ping 
 ~~~
