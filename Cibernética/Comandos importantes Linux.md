@@ -308,5 +308,12 @@ diff -r pasta1/ pasta2/
 
 > **tar** - utilizado para extrair e comprimir arquivos no formato tar.
 ~~~bash
-tar 
+
+# Sintaxe básica para comprimir arquivos
+
+tar -cvf arquivo_comprimido.tar.gz arquivo.txt
+
+# Sintaxe básixa para descomprimir arquivos
+
+tar -xzvf
 ~~~
