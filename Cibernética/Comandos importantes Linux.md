@@ -182,4 +182,8 @@ tail -n +50 arquivo.txt
 ~~~bash
 nano texto.txt
 ~~~~
-- **
+- **Ctrl + O**: salvar as alterações
+- **Ctrl + X**: sair do editor
+- **Ctrl + W**: buscar um texto
+- **Ctrl + K**: recortar uma linha inteira
+- **Ctrl + U**:
