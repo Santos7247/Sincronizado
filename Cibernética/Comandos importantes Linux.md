@@ -11,7 +11,7 @@ Os seguintes elementos compõem um comando Linux:
 ls /home/username/documents
 ~~~~
 - **-R**: visualiza conteúdos dos subdiretórios
-- **-l**: exibe uma lista detalhada
+- **-l**: exibe uma lista detalhada (permissões, don)
 - **-a**: mostra os arquivos ocultos
 
 > **cd** - usado para navegar entre diretórios e modificá-los.
@@ -130,7 +130,12 @@ cat arquivo_origem.txt >> arquivo_destino.txt
 > **less** - exibe grandes arquivos página por página, sendo muito utilizado por quem precisa analisar conteúdos grandes.
 ~~~bash
 less arquivo.txt
+
+# Ver a saída de outro comando paginada
+
+ls -la /etc | less
 ~~~
+- **-N**: exibe número de linhas
 - **Setas (cima/baixo)**: sobe ou desce uma linha
 - **Espaço**: desce uma página inteira
 - **b**: volta uma página
