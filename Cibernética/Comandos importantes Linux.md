@@ -246,3 +246,4 @@ cut -d " " -f 1-3 arquivo.txt
 - **-d**: define o delimitador
 - **-f**: seleciona campos em cada linha
 
+> **awk** - trata-se de um comando 
