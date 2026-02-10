@@ -322,5 +322,9 @@ tar -xzvf
 ~~~bash
 # Para executar essa requisição, é necessário saber o número de processo (PID) que será interrompido
 
+ps aux | grep nome_do_processo
+
 kill [pid]
 ~~~
+- **SIGTERM(15)**: sinal padrão, que solicita o encerramento normal do processo
+- **SIGKILL(9)
