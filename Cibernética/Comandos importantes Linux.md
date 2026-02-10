@@ -304,4 +304,9 @@ diff -r pasta1/ pasta2/
 - **-b**: passa a ignorar os espaços em branco como possíveis diferenças
 - **-y**: mudança lado a lado
 - **-r**: comparar diretórios
-- Obs.: o comando "colordiff" apresenta 
+- Obs.: o comando "colordiff" apresenta as diferenças em verde e vermelho
+
+> **tar** - utilizado para extrair e comprimir arquivos no formato tar.
+~~~bash
+tar 
+~~~
