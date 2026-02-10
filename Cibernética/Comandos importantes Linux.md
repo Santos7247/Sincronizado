@@ -43,4 +43,5 @@ mkdir -p pasta1/pasta2/pasta3
 mkdir -m 700 segredo
 ~~~~
 
-
+> **rmdir** - exclui permanentemente um diretório vazio.
+- **-p**: utilizado para 
