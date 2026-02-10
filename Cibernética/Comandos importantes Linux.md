@@ -78,7 +78,7 @@ touch novo.txt
 find [diretório][opção][ação]
 
 # Encontra um arquivo específico no diretório atual e subpastas
-# Use -iname 
+# Use -iname para ignorar diferenças entre maiúsculas e minúsculas
 
 find . -name "arquivo.txt"
 
