@@ -369,3 +369,6 @@ sudo apt-get install pacote1 pacote2
 
 sudo apt-get remove
 ~~~
+# Rede
+
+> **ping** - 
