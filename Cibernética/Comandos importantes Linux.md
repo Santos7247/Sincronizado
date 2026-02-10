@@ -9,11 +9,14 @@ Os seguintes elementos compõem um comando Linux:
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
 ~~~~bash
 ls /home/username/documents
+
+# Mostr
 ~~~~
 - **-R**: visualiza conteúdos dos subdiretórios
 - **-l**: exibe uma lista detalhada (permissões, dono, tamanho e data de modificação)
 - **-a**: mostra os arquivos ocultos (arquivos que começam com ponto)
 - **-lh**: mostra o tamanho em KB, MB ou GB
+- **-lt**: os arquivos modificados mais recentemente aparecem primeiro
 
 > **cd** - usado para navegar entre diretórios e modificá-los.
 ~~~~bash
