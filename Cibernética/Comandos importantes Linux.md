@@ -44,4 +44,8 @@ mkdir -m 700 segredo
 ~~~~
 
 > **rmdir** - exclui permanentemente um diretório vazio.
-- **-p**: utilizado para 
+- **-p**: utilizado para apagar um diretório e seus subdiretórios
+- **-ignore-fail-on-non-empty**: faz com que o comando ignore o erro caso o diretório não esteja vazio
+~~~~bash
+rmdir [opções]
+
