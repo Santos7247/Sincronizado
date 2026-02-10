@@ -112,3 +112,8 @@ locate arquivo.txt
 ~~~~
 
 # Leitura e edição de arquivos
+
+> **cat** - Visualiza, cria e relaciona conteúdos de arquivos.
+~~~bash
+cat texto.txt
+~~~~
