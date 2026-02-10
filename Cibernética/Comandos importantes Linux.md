@@ -76,5 +76,11 @@ touch novo.txt
 > **find** - utilizado para encontrar arquivos e diretórios de acordo com um critério específico, como tamanho e tipo.
 ~~~~bash
 find [diretório][opção][ação]
+
+# Encontra um arquivo específico no diretório atual e subpastas
+
+find . -name "arquivo.txt"
+
+# Lista apenas di
 ~~~~
 
