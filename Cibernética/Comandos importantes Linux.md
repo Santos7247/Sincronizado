@@ -155,5 +155,12 @@ ls -la /etc | less
 head [opção][arquivo]
 
 head -n20 arquivo.txt
+
+# Combinado comandos
+
+ls -l | head
 ~~~~
 
+> **tail** - a requisição tail mostra as 10 últimas linhas de um arquivo.
+~~~bash
+tail log
