@@ -408,4 +408,7 @@ curl -C - -O https://exemplo.com
 - **-X**: faz uma requisição POST (enviar dados para uma API)
 - **-C**: continua um download interrompido
 
-> **wget** - 
+> **wget** - permite que o usuário faça download de arquivos nos protocolos HTTP, HTTPS e FTP diretamente de linha de comando. Pode funcionar em segundo plano.
+~~~bash
+wget https://exemplo.com/arquivo.zip
+~~~
