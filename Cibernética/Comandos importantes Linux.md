@@ -68,4 +68,5 @@ cp arquivo.txt/diretorio_destino
 mv arquivo.txt nova pasta/ ou mv antigo.txt novo.txt
 ~~~~
 
-
+> **touch** - cria um arquivo vazio ou gera e modifica um registro de data e hora.
+> 
