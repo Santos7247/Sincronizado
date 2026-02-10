@@ -191,4 +191,7 @@ nano texto.txt
 > **echo** - empregado para exibir um texto no terminal, adicionar ou evitar uma nova linha e para automatizar tarefas por meio de scripts.
 ~~~bash
 echo [opção][argumento]
-
+~~~~
+- **-n**: não adiciona uma nova linha após apresentar os argumentos
+- **-e**: aciona a interpretação de sequências de escape de barra invertida
+- **-E**: apresenta a opção padrão e desativa a interpretação dos escapes de barra invertida
