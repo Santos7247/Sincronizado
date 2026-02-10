@@ -427,3 +427,9 @@ wget -r -A.pdf https://site.com
 - **-b**: para realizar o download em segundo plano
 - **-O**: faz o download e salva o arquivo com outro nome
 - **-m**: cria uma cópia local completa para navegação offline
+
+> **ip address** - exibe informações relacionadas às interfaces de rede do seu computador ou servidor, também permite a manipulação de interfaces, configuração de endereços e alterar tabelas de rotas.
+~~~~bash
+ip a
+~~~
+
