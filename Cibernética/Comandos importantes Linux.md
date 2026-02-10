@@ -63,4 +63,9 @@ rm nome_do_arquivo
 cp arquivo.txt/diretorio_destino
 ~~~~
 
-> **mv** - 
+> **mv** - move ou renomeia arquivos e diretórios.
+~~~~bash
+mv arquivo.txt nova pasta/ ou mv antigo.txt novo.txt
+~~~~
+
+
