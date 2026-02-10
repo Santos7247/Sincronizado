@@ -336,4 +336,10 @@ kill -SIGTERM PID
 - **SIGSTOP (19)**: pausa a execução do processo
 - **SIGCONT (18)**: continua a execução de um processo pausado
 
-> **reboot** - reinicia o computador de maneira imediata
+> **reboot** - reinicia o computador de maneira imediata.
+~~~bash
+reboot
+~~~
+- **-f**: força a reinicialização
+
+> **uptime** - mostra a quanto tempo o sistema está em execução, a carga da CPU e quantos usuários estão logados
