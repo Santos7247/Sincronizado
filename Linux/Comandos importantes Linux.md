@@ -379,7 +379,9 @@ ping [opção] [nome_do_herdeiro_ou_endereço_IP]
 
 ping -c 4 8.8.8.8
 
-# Envia um pacote a cada tempo estabelecido (2 segundos)
+# Envia um pacote a cada tempo estabelecido (2 segundos no caso)
 
-ping 
+ping -i 2 globo.com
 ~~~
+
+> **curl** - "Cliente URL", pode ser utilizado para verificar a conectividade URL e transferir dados para outros servidores. Suporta vários tipos de protocolos,
