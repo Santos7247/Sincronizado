@@ -317,3 +317,9 @@ tar -cvf arquivo_comprimido.tar.gz arquivo.txt
 
 tar -xzvf
 ~~~
+
+> **kill** - usado para encerrar (matar) processos.
+~~~bash
+kill [pid]
+~~~
+- **-
