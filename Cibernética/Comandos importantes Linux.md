@@ -69,4 +69,12 @@ mv arquivo.txt nova pasta/ ou mv antigo.txt novo.txt
 ~~~~
 
 > **touch** - cria um arquivo vazio ou gera e modifica um registro de data e hora.
-> 
+~~~~bash
+touch novo.txt
+~~~~
+
+> **find** - utilizado para encontrar arquivos e diretórios de acordo com um critério específico, como tamanho e tipo.
+~~~~bash
+find [diretório][opção][ação]
+~~~~
+
