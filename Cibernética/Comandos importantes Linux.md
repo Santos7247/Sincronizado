@@ -264,6 +264,10 @@ awk -F ":" '{print $1} /etc/passwd'
 
 # Somar os valores da primeira coluna e mostrar o total no final
 
-awk '{soma += $1} END {print soma}'
+awk '{soma += $1} END {print soma}' valores.txt
+
+# Filtrar pelo tamanho da linha, mostra as linhas que tenham mais de 80 caracteres
+
+awk 
 ~~~
 
