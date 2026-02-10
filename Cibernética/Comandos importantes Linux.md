@@ -176,3 +176,6 @@ tail -f /var/log/syslog
 tail -n +50 arquivo.txt
 ~~~~
 - **-f**: visualiza alterações em tempo real
+- **-F**: monitorar um arquivo que pode ser deletado e recriado pelo sistema (como um log rotacionado). Ele continua tentando ler o arquivo mesmo que ele suma por um instante
+
+> **nano** - 
