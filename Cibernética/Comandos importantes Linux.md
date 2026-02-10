@@ -78,6 +78,7 @@ touch novo.txt
 find [diretório][opção][ação]
 
 # Encontra um arquivo específico no diretório atual e subpastas
+# Use -iname 
 
 find . -name "arquivo.txt"
 
@@ -94,6 +95,8 @@ find / -size +100M
 
 find . -mtime -7
 
+# Busca arquivos .tmp e os remove automaticamente
 
+find . -name "*.tmp" -exec rm -rf {} \;
 ~~~~
 
