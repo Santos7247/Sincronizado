@@ -449,3 +449,11 @@ sudo ip addr del 192.168.1.50/24 dev eth0
 sudo ip link set eth0 up
 sudo ip link set eth0 down
 ~~~
+# Informações do sistema
+
+> **uname** - "Unix Name", usado para mostrar informações detalhadas sobre o sistema.
+~~~bash
+uname [opção]
+
+
+~~~
