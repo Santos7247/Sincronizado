@@ -201,7 +201,13 @@ echo "Olá, mundo!"
 echo $USER
 echo $PATH
 
-# Criar um arquivo com texto rapida
+# Criar um arquivo com texto rapidamente
+
+echo "Texto de exemplo" > arquivo.txt
+
+# Adicionar texto ao final de um arquivo
+
+exho "Nova linha de log" >> logs.txt
 ~~~~
 - **-n**: não adiciona uma nova linha após apresentar os argumentos
 - **-e**: aciona a interpretação de sequências de escape de barra invertida
