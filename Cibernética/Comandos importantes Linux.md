@@ -293,4 +293,4 @@ ls -lah | grep ".pdf"
 - **-v**: mostra tudo que não contém a palavra, inverter a busca, útil para limpar logs
 - **-n**: mostra o número da linha
 
-> **diff** - 
+> **diff** - compara o conteúdo de dosa arquivos diferent
