@@ -104,4 +104,7 @@ find . -name "*.tmp" -exec rm -rf {} \;
 ~~~~bash
 stat arquivo.txt
 ~~~~
-- **-t**: exibe os dados de forma simplificada 
+- **-t**: exibe os dados de forma simplificada
+
+> **locate** - semelhante ao find, pois também localiza arquivos. É menos preciso, pois precisa de um banco de dados que seja atualizado com frequência.
+~~~~bash
