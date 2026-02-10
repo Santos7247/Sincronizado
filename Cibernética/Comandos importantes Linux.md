@@ -116,4 +116,9 @@ locate arquivo.txt
 > **cat** - Visualiza, cria e relaciona conteúdos de arquivos.
 ~~~bash
 cat texto.txt
+
+# Mescla dois arquivos em um terceiro
+
+cat parte1.txt parte2.txt > arquivo_completo.txt
 ~~~~
+**-n**
