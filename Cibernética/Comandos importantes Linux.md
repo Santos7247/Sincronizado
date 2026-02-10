@@ -191,6 +191,17 @@ nano texto.txt
 > **echo** - empregado para exibir um texto no terminal, adicionar ou evitar uma nova linha e para automatizar tarefas por meio de scripts.
 ~~~bash
 echo [opção][argumento]
+
+# Exibir uma mensagem
+
+echo "Olá, mundo!"
+
+# Ver o valor de uma variável de ambiente
+
+echo $USER
+echo $PATH
+
+# Criar um arquivo com texto rapida
 ~~~~
 - **-n**: não adiciona uma nova linha após apresentar os argumentos
 - **-e**: aciona a interpretação de sequências de escape de barra invertida
