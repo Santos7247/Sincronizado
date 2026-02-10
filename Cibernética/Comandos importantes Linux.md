@@ -225,5 +225,10 @@ wc [opção] texto.txt
 
 > **cut** - extrai caracteres, bytes e seções de cada linha de um arquivo.
 ~~~bash
-cut [opção] arquivo,txt
+cut [opção] arquivo.txt
+
+
 ~~~
+- **-b**: seleciona apenas os bytes de cada linha
+- **-c**: seleciona apenas os caracteres de cada linhas
+- **-f**: seleciona campos em cada linha
