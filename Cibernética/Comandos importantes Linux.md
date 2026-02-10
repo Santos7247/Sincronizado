@@ -245,3 +245,4 @@ cut -d " " -f 1-3 arquivo.txt
 - **-c**: seleciona apenas os caracteres de cada linhas
 - **-d**: define o delimitador
 - **-f**: seleciona campos em cada linha
+
