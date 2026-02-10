@@ -11,8 +11,9 @@ Os seguintes elementos compõem um comando Linux:
 ls /home/username/documents
 ~~~~
 - **-R**: visualiza conteúdos dos subdiretórios
-- **-l**: exibe uma lista detalhada (permissões, don)
-- **-a**: mostra os arquivos ocultos
+- **-l**: exibe uma lista detalhada (permissões, dono, tamanho e data de modificação)
+- **-a**: mostra os arquivos ocultos (arquivos que começam com ponto)
+- **-lh**: mostra o tamanho em KB, MB ou GB
 
 > **cd** - usado para navegar entre diretórios e modificá-los.
 ~~~~bash
