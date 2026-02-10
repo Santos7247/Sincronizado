@@ -227,8 +227,11 @@ wc [opção] texto.txt
 ~~~bash
 cut [opção] arquivo.txt
 
+# Pegar apenas os nomes de usuário no arquivo /etc/passwd
 
+cut -d ":" -f 1 /etc/passwd
 ~~~
 - **-b**: seleciona apenas os bytes de cada linha
 - **-c**: seleciona apenas os caracteres de cada linhas
+- **-d**: define o delimitador
 - **-f**: seleciona campos em cada linha
