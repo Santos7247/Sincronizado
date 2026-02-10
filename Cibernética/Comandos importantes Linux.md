@@ -280,9 +280,17 @@ grep "erro" log.txt
 # Ignora letras maiúsculas e minúsculas
 
 grep -i "python" tutorial.txt
+
+# Utilizado para filtrar a saída de outros comando
+
+ps aux | grep "chrome"
+
+ls -lah | grep ".pdf"
 ~~~
 - **-i**: ignora letras maiúsculas e minúsculas
 - **-r**: procura em todos os arquivos de uma pasta
 - **-c**: quantas vezes uma palavra aparece
 - **-v**: mostra tudo que não contém a palavra, inverter a busca, útil para limpar logs
 - **-n**: mostra o número da linha
+
+> **diff** - 
