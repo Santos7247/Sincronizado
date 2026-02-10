@@ -186,4 +186,9 @@ nano texto.txt
 - **Ctrl + X**: sair do editor
 - **Ctrl + W**: buscar um texto
 - **Ctrl + K**: recortar uma linha inteira
-- **Ctrl + U**:
+- **Ctrl + U**: colar uma linha inteira
+
+> **echo** - empregado para exibir um texto no terminal, adicionar ou evitar uma nova linha e para automatizar tarefas por meio de scripts.
+~~~bash
+echo [opção][argumento]
+
