@@ -120,5 +120,11 @@ cat texto.txt
 # Mescla dois arquivos em um terceiro
 
 cat parte1.txt parte2.txt > arquivo_completo.txt
+
+# Adiciona conteúdo ao final do arquivo
+
+cat arquivo_origem.txt >> arquivo_destino.txt
 ~~~~
-**-n**
+- **-n**: numerar as linhas
+
+> **less** - 
