@@ -342,4 +342,9 @@ reboot
 ~~~
 - **-f**: força a reinicialização
 
-> **uptime** - mostra a quanto tempo o sistema está em execução, a carga da CPU e quantos usuários estão logados
+> **uptime** - mostra a quanto tempo o sistema está em execução, a carga da CPU e quantos usuários estão logados nele.
+~~~bash
+uptime
+~~~
+- **-p**: mostra o tempo de atividade de forma legível
+- **-s**: mostra o dia e horário em que o sistema 
