@@ -277,4 +277,9 @@ grep [termo] arquivo.txt
 
 grep "erro" log.txt
 
-# Ignora letras maiúsculuas e 
+# Ignora letras maiúsculas e minúsculas
+
+grep -i "python" tutorial.txt
+~~~
+- **-i**: ignora letras maiúsculas e minúsculas
+- **-r**: procura em todos a
