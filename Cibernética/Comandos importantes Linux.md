@@ -58,4 +58,9 @@ rmdir [opções]
 rm nome_do_arquivo
 ~~~~
 
-> **
+> **cp** - copia arquivos e diretórios, é necessário mencionar os nomes dos conteúdos que você deseja copiar, assim como a pasta para qual eles deverão ser enviados.
+~~~~bash
+cp arquivo.txt/diretorio_destino
+~~~~
+
+> **mv** - 
