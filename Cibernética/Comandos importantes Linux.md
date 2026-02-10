@@ -107,4 +107,8 @@ stat arquivo.txt
 - **-t**: exibe os dados de forma simplificada
 
 > **locate** - semelhante ao find, pois também localiza arquivos. É menos preciso, pois precisa de um banco de dados que seja atualizado com frequência.
-~~~~bash
+~~~bash
+locate arquivo.txt
+~~~~
+
+# Leitura e edição de arquivos
