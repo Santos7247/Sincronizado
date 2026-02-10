@@ -365,5 +365,7 @@ sudo apt-get upgrade
 
 sudo apt-get install pacote1 pacote2
 
-# Remove
+# Remove um ou mais pacotes
+
+sudo apt-get remove
 ~~~
