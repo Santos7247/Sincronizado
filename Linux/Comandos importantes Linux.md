@@ -396,9 +396,16 @@ curl -I https://github.com
 
 # Requisição POST
 
-curl -X POST -d "nome=usuario&senha=123"
+curl -X POST -d "nome=usuario&senha=123" https://api.site.com
+
+# Download interrompido
+
+curl -C - -O https://exemplo.com
 ~~~
 - **-O**: salva o arquivo no diretório atual usando o mesmo nome do arquivo remoto
 - **-o**: permite que o usuário especifique um nome diferente para o arquivo
 - **-I**: retorna apenas o cabeçalho
 - **-X**: faz uma requisição POST (enviar dados para uma API)
+- **-C**: continua um download interrompido
+
+> **wget** - 
