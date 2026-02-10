@@ -237,7 +237,9 @@ cut -d ":" -f 1 /etc/passwd
 
 cut -c 1-5 arquivo.txt
 
-# 
+# Pega do primeiro ao terceiro campo, usando espaço como separador
+
+cut -d " " -f 1-3 arquivo.txt
 ~~~
 - **-b**: seleciona apenas os bytes de cada linha
 - **-c**: seleciona apenas os caracteres de cada linhas
