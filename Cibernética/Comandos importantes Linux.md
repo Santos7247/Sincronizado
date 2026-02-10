@@ -212,3 +212,6 @@ exho "Nova linha de log" >> logs.txt
 - **-n**: não adiciona uma nova linha após apresentar os argumentos
 - **-e**: aciona a interpretação de sequências de escape de barra invertida
 - **-E**: apresenta a opção padrão e desativa a interpretação dos escapes de barra invertida
+
+> **wc** - "Word count", serve para contar palavras, linhas, caracteres além de também indicar o comprimento da maior linha de um texto
+~~~
