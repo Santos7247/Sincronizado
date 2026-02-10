@@ -293,4 +293,9 @@ ls -lah | grep ".pdf"
 - **-v**: mostra tudo que não contém a palavra, inverter a busca, útil para limpar logs
 - **-n**: mostra o número da linha
 
-> **diff** - compara o conteúdo de dosa arquivos diferent
+> **diff** - compara o conteúdo de dosa arquivos diferentes linha por linha.
+~~~bash
+diff arquivo1.txt arquivo2.txt
+~~~
+- **-q**: exibe apenas os arquivos que são diferentes, sem especificar as diferenças
+- **-i**: deixa o comando diff indiferente 
