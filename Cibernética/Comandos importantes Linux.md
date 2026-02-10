@@ -300,4 +300,5 @@ diff arquivo1.txt arquivo2.txt
 - **-q**: exibe apenas os arquivos que são diferentes, sem especificar as diferenças
 - **-i**: deixa o comando diff indiferente para maiúsculas e minúsculas
 - **-b**: passa a ignorar os espaços em branco como possíveis diferenças
-- **-y** 
+- **-y**: mudança lado a lado
+- 
