@@ -220,4 +220,10 @@ wc [opção] texto.txt
 - **-w**: contar a quantidade de palavras
 - **-c**: contar a quantidade de caracteres
 - **-l**: mostra o número de linhas
-- **-m**: mostra o número de
+- **-m**: mostra o número de caracteres usando o formato Unicode
+- **-L**: mostra o comprimento da maior linha do arquivo
+
+> **cut** - extrai caracteres, bytes e seções de cada linha de um arquivo.
+~~~bash
+cut [opção] arquivo,txt
+~~~
