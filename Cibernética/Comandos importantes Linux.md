@@ -10,7 +10,9 @@ Os seguintes elementos compõem um comando Linux:
 ~~~~bash
 ls /home/username/documents
 
-# Mostr
+# Mostra tudo "super comando"
+
+ls -lah
 ~~~~
 - **-R**: visualiza conteúdos dos subdiretórios
 - **-l**: exibe uma lista detalhada (permissões, dono, tamanho e data de modificação)
@@ -147,3 +149,5 @@ ls -la /etc | less
 - **g**: volta para o início do arquivo
 - **/ + palavra**: pesquisa por um termo (aperta **n** para ir para a próxima ocorrência)
 - **q**: sai do comando e volta para o prompt
+
+> **head** - visualiza as primeiras 10 linhas de um arquivo
