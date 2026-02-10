@@ -351,4 +351,7 @@ uptime
 
 # Gerenciamento de pacotes
 
-> **apt get** - ferramenta que pode ser utilizada para gerenciar, atualizar, pesquisar, instalar e dedsinstalar pacotes em um si
+> **apt get** - ferramenta que pode ser utilizada para gerenciar, atualizar, pesquisar, instalar e desinstalar pacotes em um sistema. Só disponível nas distribuições Linux derivadas do Debian, como o Ubuntu, por exemplo.
+~~~bash
+# Atualiza a lista de pacotes disponíveis nos repositórios
+~~~
