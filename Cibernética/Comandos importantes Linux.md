@@ -347,4 +347,8 @@ reboot
 uptime
 ~~~
 - **-p**: mostra o tempo de atividade de forma legível
-- **-s**: mostra o dia e horário em que o sistema 
+- **-s**: mostra o dia e horário em que o sistema foi ligado
+
+# Gerenciamento de pacotes
+
+> **apt get** - ferramenta que pode ser utilizada para gerenciar, atualizar, pesquisar, instalar e dedsinstalar pacotes em um si
