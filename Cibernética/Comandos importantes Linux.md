@@ -127,4 +127,7 @@ cat arquivo_origem.txt >> arquivo_destino.txt
 ~~~~
 - **-n**: numerar as linhas
 
-> **less** - 
+> **less** - exibe grandes arquivos página por página, sendo muito utilizado por quem precisa analisar conteúdos grandes.
+~~~bash
+less arquivo.txt
+~~~
