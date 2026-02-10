@@ -390,9 +390,15 @@ curl [opção] [URL]
 
 curl https://www.google.com
 
+# Ver cabeçalho
 
+curl -I https://github.com
+
+# Requisição POST
+
+curl -X POST -d "nome=usuario&senha=123"
 ~~~
 - **-O**: salva o arquivo no diretório atual usando o mesmo nome do arquivo remoto
 - **-o**: permite que o usuário especifique um nome diferente para o arquivo
 - **-I**: retorna apenas o cabeçalho
-- **-X
+- **-X**: faz uma requisição POST (enviar dados para uma API)
