@@ -214,4 +214,10 @@ exho "Nova linha de log" >> logs.txt
 - **-E**: apresenta a opção padrão e desativa a interpretação dos escapes de barra invertida
 
 > **wc** - "Word count", serve para contar palavras, linhas, caracteres além de também indicar o comprimento da maior linha de um texto
-~~~
+~~~bash
+wc [opção] texto.txt
+~~~~
+- **-w**: contar a quantidade de palavras
+- **-c**: contar a quantidade de caracteres
+- **-l**: mostra o número de linhas
+- **-m**: mostra o número de
