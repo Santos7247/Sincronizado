@@ -335,3 +335,5 @@ kill -SIGTERM PID
 - **SIGHUP (1)**: tradicionalmente usado para recarregar configurações
 - **SIGSTOP (19)**: pausa a execução do processo
 - **SIGCONT (18)**: continua a execução de um processo pausado
+
+> **reboot** - reinicia o computador de maneira imediata
