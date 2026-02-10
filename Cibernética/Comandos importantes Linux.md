@@ -254,6 +254,12 @@ awk [ação] arquivo
 
 awk '{print $1, $3}' lista.txt
 
-# Filtrando por conteúdo, 
+# Filtrando por conteúdo, msotra apenas as linhas onde a segunda coluna é igual a 'Ativo'
+
+awk '$2 == "Ativo" {print $0}' dados.txt
+
+# Usando o ":" como delimitador específico
+
+awk 
 ~~~
 
