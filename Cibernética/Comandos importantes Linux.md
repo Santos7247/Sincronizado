@@ -320,6 +320,7 @@ tar -xzvf
 
 > **kill** - usado para encerrar (matar) processos.
 ~~~bash
+# Para executar essa requisição, é necessário saber o número de processo (PID) que será interrompido
+
 kill [pid]
 ~~~
-- **-
