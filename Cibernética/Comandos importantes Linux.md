@@ -271,3 +271,4 @@ awk '{soma += $1} END {print soma}' valores.txt
 awk 'length($0) == 80' arquivo.txt
 ~~~
 
+> **grep** - comando utilizado para encontrar uma palavra em um determinado conteúdo. Exibe todas as 
