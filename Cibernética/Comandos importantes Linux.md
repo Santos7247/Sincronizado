@@ -150,4 +150,10 @@ ls -la /etc | less
 - **/ + palavra**: pesquisa por um termo (aperta **n** para ir para a próxima ocorrência)
 - **q**: sai do comando e volta para o prompt
 
-> **head** - visualiza as primeiras 10 linhas de um arquivo
+> **head** - visualiza as primeiras 10 linhas de um arquivo, ou quantas linhas forem necessárias.
+~~~~bash
+head [opção][arquivo]
+
+head -n20 arquivo.txt
+~~~~
+
