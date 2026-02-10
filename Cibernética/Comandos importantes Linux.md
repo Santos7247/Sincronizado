@@ -325,9 +325,13 @@ tar -xzvf
 ps aux | grep nome_do_processo
 
 kill [pid]
+
+kill -15 PID
+
+kill -SIGTERM PID
 ~~~
 - **SIGTERM (15)**: sinal padrão, que solicita o encerramento normal do processo
 - **SIGKILL (9)**: força o encerramento imediato, sem dar chance ao processo de se recuperar
 - **SIGHUP (1)**: tradicionalmente usado para recarregar configurações
 - **SIGSTOP (19)**: pausa a execução do processo
-- **SIGCONT (18)**: 
+- **SIGCONT (18)**: continua a execução de um processo pausado
