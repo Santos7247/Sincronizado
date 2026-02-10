@@ -81,6 +81,19 @@ find [diretório][opção][ação]
 
 find . -name "arquivo.txt"
 
-# Lista apenas di
+# Lista apenas diretório (d) ou arquivos (a)
+
+find /home/usuario -type d
+find /home/usuario -type a
+
+# Busca por tamanho
+
+find / -size +100M
+
+# Busca por tempo de modificação
+
+find . -mtime -7
+
+
 ~~~~
 
