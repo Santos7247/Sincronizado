@@ -384,4 +384,9 @@ ping -c 4 8.8.8.8
 ping -i 2 globo.com
 ~~~
 
-> **curl** - "Cliente URL", pode ser utilizado para verificar a conectividade URL e transferir dados para outros servidores. Suporta vários tipos de protocolos,
+> **curl** - "Cliente URL", pode ser utilizado para verificar a conectividade URL e transferir dados para outros servidores. Suporta vários tipos de protocolos.
+~~~bash
+curl [opção] [URL]
+~~~
+- **-O**: salva o arquivo no diretório atual usando o mesmo nome do arquivo remoto
+- **ó**: permite que o usuário especifique um nome diferente para 
