@@ -100,3 +100,7 @@ find . -mtime -7
 find . -name "*.tmp" -exec rm -rf {} \;
 ~~~~
 
+> **stat** - visualiza informações detalhadas sobre os arquivos.
+~~~~bash
+stat arquivo.txt
+~~~~
