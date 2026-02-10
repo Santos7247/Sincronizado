@@ -268,6 +268,6 @@ awk '{soma += $1} END {print soma}' valores.txt
 
 # Filtrar pelo tamanho da linha, mostra as linhas que tenham mais de 80 caracteres
 
-awk 
+awk 'length($0) == 80' arquivo.txt
 ~~~
 
