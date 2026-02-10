@@ -134,4 +134,7 @@ less arquivo.txt
 - **Setas (cima/baixo)**: sobe ou desce uma linha
 - **Espaço**: desce uma página inteira
 - **b**: volta uma página
-- **G**: 
+- **G**: vai para o final do arquivo
+- **g**: volta para o início do arquivo
+- **/ + palavra**: pesquisa por um termo (aperta **n** para ir para a próxima ocorrência)
+- **q**: sai do comando e volta para o prompt
