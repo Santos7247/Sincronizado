@@ -48,4 +48,8 @@ mkdir -m 700 segredo
 - **-ignore-fail-on-non-empty**: faz com que o comando ignore o erro caso o diretório não esteja vazio
 ~~~~bash
 rmdir [opções]
+~~~~
 
+> **rm** - apaga permanentemente todos os arquivos contidos em um diretório.
+- **-i**: solicita a confirmação do sistema antes de fazer uma exclusão
+- **
