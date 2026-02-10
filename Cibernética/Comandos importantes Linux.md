@@ -167,6 +167,12 @@ tail log.txt
 
 tail -n 5 log.txt
 
+# Modo espião (mantém o arquivo aberto e atualiza a tela automaticamente)
 
+tail -f /var/log/syslog
+
+# Mostra tudo a partir da linha 50
+
+tail -n +50 arquivo.txt
 ~~~~
 - **-f**: visualiza alterações em tempo real
