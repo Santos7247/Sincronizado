@@ -260,6 +260,10 @@ awk '$2 == "Ativo" {print $0}' dados.txt
 
 # Usando o ":" como delimitador específico
 
-awk 
+awk -F ":" '{print $1} /etc/passwd'
+
+# Somar os valores da primeira coluna e mostrar o total no final
+
+awk '{soma += $1} END {print soma}'
 ~~~
 
