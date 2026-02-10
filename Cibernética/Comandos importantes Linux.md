@@ -249,5 +249,11 @@ cut -d " " -f 1-3 arquivo.txt
 > **awk** - trata-se de um comando que na verdade é um canivete suíço, é uma linguagem de programação inteira voltada para processamento de dados e geração de relatórios.
 ~~~bash
 awk [ação] arquivo
+
+# Imprime colunas específicas, pegar a primeira e terceira coluna
+
+awk '{print $1, $3}' lista.txt
+
+# Filtrando por conteúdo, 
 ~~~
 
