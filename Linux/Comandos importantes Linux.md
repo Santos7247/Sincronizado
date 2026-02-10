@@ -419,6 +419,10 @@ wget -O meu_nome.zip https://exemplo.com
 # Espelhar um site inteiro
 
 wget -m https://site-estatico.com
+
+# Baixa todos os arquivos de uma determinada extensão de uma página
+
+wget -r -A.pdf https://site.com
 ~~~
 - **-b**: para realizar o download em segundo plano
 - **-O**: faz o download e salva o arquivo com outro nome
