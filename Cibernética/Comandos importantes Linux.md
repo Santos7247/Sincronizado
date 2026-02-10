@@ -246,4 +246,8 @@ cut -d " " -f 1-3 arquivo.txt
 - **-d**: define o delimitador
 - **-f**: seleciona campos em cada linha
 
-> **awk** - trata-se de um comando 
+> **awk** - trata-se de um comando que na verdade é um canivete suíço, é uma linguagem de programação inteira voltada para processamento de dados e geração de relatórios.
+~~~bash
+awk [ação] arquivo
+~~~
+
