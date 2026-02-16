@@ -517,11 +517,16 @@ df [opção]
 
 > **du** - verifica quanto espaço do disco um arquivo ou diretório está ocupando.
 ~~~bash
-df [opção]
+du [opção][dirtório]
 ~~~
 - **-s**: exibe o tamanho total de uma pasta especificada
 - **-h**: oferece unidade mais inteligível
 - **-m**: mostra as informações em megabytes
 - **-k**: mostra as informações em quilobytes
 
->
+> **exit** - encerra a execução de um processo e volta para o promp de comando anterior.
+~~~bash
+exit
+~~~
+
+> **man** - acesso ao manual 
