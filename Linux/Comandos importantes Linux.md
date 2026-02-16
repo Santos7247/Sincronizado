@@ -545,4 +545,8 @@ history [opção]
 - **-a**: adiciona linhas ao histórico
 # Permissões e usuários
 
-> **chmod** - altera as permissões d
+> **chmod** - altera as permissões de um arquivo de maneira rápida e prática.
+~~~bash
+chmod [opção][permissão][nome_do_arquivo]
+~~~
+- permissç
