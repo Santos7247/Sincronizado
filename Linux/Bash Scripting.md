@@ -128,6 +128,8 @@ esac
 
 # Validando se o usuário colocou o argumento
 
+
+
 echo "Varrendo host: $1 e porta $2"
 ~~~
 
