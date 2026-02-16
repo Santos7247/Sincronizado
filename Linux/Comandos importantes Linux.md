@@ -549,4 +549,10 @@ history [opção]
 ~~~bash
 chmod [opção][permissão][nome_do_arquivo]
 ~~~
-- permissç
+- permissões básicas:
+	- *r* (read)
+	- *w* (write)
+	- *x* (execute)
+- **-c**: informa quando a última alteração foi realizada
+- **-f**: suprime as mensagens de erro
+- **-v** imprime det
