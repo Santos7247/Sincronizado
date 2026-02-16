@@ -109,5 +109,15 @@ fi
 ~~~bash
 #!/bin/bash
 
-echo "O cliente autorizou o pente"
+echo "O cliente autorizou o Pentest?"
+echo "1 - Sim"
+echo "2 - Não"
+read resp
+
+case $resp in
+"1")
+	echo "Pode iniciar o Pentest"
+;;
+"2")
+	echo "Pentes pende"
 ~~~
