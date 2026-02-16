@@ -620,7 +620,13 @@ sudo chown -R usuario:grupo /var/www/meu_site
 ~~~bash
 sudo adduser nome_usuário
 
-# Adicionar um usuário existente a um grupo
+# Adicionar um usuário existente a um grupo (muito utilizado para dar permssões de administrador)
 
-sudo adduser usuar
+sudo adduser usuario sudo
+
+# Cria um usuário de sistema (sem pasta /home)
+
+sudo adduser --system nome_do_serviço
+
+# Remover um usuário completamen
 ~~~
