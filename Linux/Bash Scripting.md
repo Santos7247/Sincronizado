@@ -84,9 +84,14 @@ read cor
 if [ "$cor" == "verde" ]
 then
 	echo "Siga em frente."
-elif
+elif [ "$cor" == "amarelo" ]
+then
+	echo "Aguarde!"
 else
 	echo "PARE!"
 fi
 ~~~
+
+~~~bash
+
 
