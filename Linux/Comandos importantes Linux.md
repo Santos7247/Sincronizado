@@ -660,4 +660,9 @@ sudo passwd -u nome_do_usuario
 sudo passwd -e nome_do_usuario
 ~~~
 
-> **su** - essa requisição é utilizada para alterar o 
+> **su** - essa requisição é utilizada para alterar o ID do usuário atual para um superusuário.
+~~~bash
+su [opção] [nome_do_usuario]
+~~~
+- **-c**: executar comando usando privilégios do usuário especificado
+- **-s**: delimita o ambiente shell para o 
