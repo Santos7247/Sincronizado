@@ -20,7 +20,6 @@ echo 'Sistema ligado por:' $(uptime -p)
 echo 'Diretório atual:' $(pwd)
 echo 'User atual:' $(whoami)
 ~~~
-
 ## Variáveis
 
 ~~~bash
@@ -65,7 +64,6 @@ ps aux | grep $var1
 echo "Portas abertas:"
 netstat -nlpt
 ~~~
-
 ## Trabalhando com condições
 
 - **lt** - less than **<**
@@ -116,8 +114,12 @@ read resp
 
 case $resp in
 "1")
-	echo "Pode iniciar o Pentest"
+	echo "Pode iniciar o Pentest."
 ;;
 "2")
-	echo "Pentes pende"
+	echo "Pentes pendente, aguarde o cliente autorizar."
+;;
+esac
 ~~~
+## Argumentos
+
