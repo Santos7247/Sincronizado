@@ -595,4 +595,7 @@ chmod -R 755 minha_pasta/
 - **-R**: aplica em pastas inteiras
 ![[Pasted image 20260216151322.png]]
 
-> **chown** - 
+> **chown** - permite mudar o proprietário do arquivo.
+~~~bash
+chown [opção] proprietário [:grupo] arquivos
+~~~
