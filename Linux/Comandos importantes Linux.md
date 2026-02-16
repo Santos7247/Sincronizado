@@ -475,9 +475,17 @@ ps [opções]
 
 ps aux
 
-# Encontrar um processo 
+# Encontrar um processo específico
+
+ps aux | grep firefox
+
+# Ver a árvore de processos (mostra quem iniciou - hierarquia)
+
+ps axjf
 ~~~
 - **-A ou -e**: exibe todos os processos em execução
 - **-u nome_de_usuário**: lista todos os processos associados a um determinado usuário
 - **T**: mostra todos os processos relacionados à atual sessão do shell
 - **-x**: inclui processos que não foram iniciados no terminal (serviços de fundo)
+
+>**free** - verifica a quantidade de memória atual, em uso e disponível
