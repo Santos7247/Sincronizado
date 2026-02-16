@@ -17,5 +17,9 @@ echo "Desec Security"
 # Exibe o resultado do comando após o texto
 
 echo 'Sistema ligado por:' $(uptime -p)
+echo 'Diretório atual:' $(pwd)
+echo 'User atual:' $(whoami)
 ~~~
+
+## Variáveis
 
