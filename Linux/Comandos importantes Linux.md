@@ -471,4 +471,6 @@ top
 ~~~bash
 ps [opções]
 ~~~
-- **-A ou -e**: 
+- **-A ou -e**: exibe todos os processos em execução
+- **-u nome_de_usuário**: lista todos os processos associados a um determinado usuário
+- **T**: mostra todos os processos relacionados à atual sessão do shell
