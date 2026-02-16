@@ -41,7 +41,6 @@ echo "Varrendo o host: $ip na porta: $porta"
 ~~~
 
 - executando comandos
-
 ~~~bash
 #!/bin/bash
 
@@ -98,10 +97,17 @@ fi
 echo "Qual a sua idade?"
 read idade
 
-if [ "$idade" >= "18" ]
+if [ "$idade" -ge "18" ]
 then
 	echo "Pode dirigir."
 else
 	echo "Não pode dirigir."
 fi
+~~~
+
+- Menu
+~~~bash
+#!/bin/bash
+
+echo "O cliente autorizou o pente"
 ~~~
