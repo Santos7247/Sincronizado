@@ -668,9 +668,13 @@ su [opção] [nome_do_usuario]
 
 su -
 
+# Executar apenas um comando como outro usuário e voltar
 
+su -c "ls /root" root
 ~~~
 - **-c**: executar comando usando privilégios do usuário especificado
 - **-s**: delimita o ambiente shell para o usuário especificado usar
 - **-h**: mostra as opções de comando com todos os parâmetros e aplicações dele
 - **-l**: fornece um ambiente similar ao que o usuário teria se tivesse iniciado aquela sessão
+
+> **sudo** - executar comando com privilégios de superus
