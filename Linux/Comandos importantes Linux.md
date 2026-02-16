@@ -470,7 +470,14 @@ top
 > **ps** - exibe dados sobre os processos que estão em execução no sistema. Informações como o ID e a quantidade de recursos utilizados por cada um.
 ~~~bash
 ps [opções]
+
+# Exibe todos os processos de todos os usuários
+
+ps aux
+
+# Encontrar um processo 
 ~~~
 - **-A ou -e**: exibe todos os processos em execução
 - **-u nome_de_usuário**: lista todos os processos associados a um determinado usuário
 - **T**: mostra todos os processos relacionados à atual sessão do shell
+- **-x**: inclui processos que não foram iniciados no terminal (serviços de fundo)
