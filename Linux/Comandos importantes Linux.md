@@ -663,6 +663,12 @@ sudo passwd -e nome_do_usuario
 > **su** - "Switch User" essa requisição é utilizada para alterar o ID do usuário atual para um superusuário.
 ~~~bash
 su [opção] [nome_do_usuario]
+
+# Virar o superusuário (root)
+
+su -
+
+
 ~~~
 - **-c**: executar comando usando privilégios do usuário especificado
 - **-s**: delimita o ambiente shell para o usuário especificado usar
