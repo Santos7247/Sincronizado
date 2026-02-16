@@ -576,6 +576,10 @@ chmod go-w arquivo.txt
 # Dar permissão total apenas ao dono
 
 chmod u=rwx arquivo.txt
+
+# Muda as permissões de uma pasta e de todos os arquivos dentro dela
+
+chmod -R 755 minha_pasta/
 ~~~
 - permissões básicas:
 	- *r / 4* (read)
@@ -588,3 +592,4 @@ chmod u=rwx arquivo.txt
 - **-c**: informa quando a última alteração foi realizada
 - **-f**: suprime as mensagens de erro
 - **-v** imprime detalhes do que está sendo feito pelo comando
+- **-R**: aplica em pastas inteiras
