@@ -499,4 +499,11 @@ free [opção]
 - **-k**: apresenta a quantidade de memória em quilobytes
 - **-m**: apresenta a quantidade de memória em megabytes
 - **-tera**: apresenta a quantidade de memória em terabytes
-- **-h**: exibe todos os campos de saída dimensionados automaticamente para a unidade de três digitos mais curta, 
+- **-h**: exibe todos os campos de saída dimensionados automaticamente para a unidade de três dígitos mais curta
+
+> **whoami** - utilizado para mostrar o nome do usuário com o qual você está conectado com o sistema naquele momento
+~~~bash
+whoami
+~~~
+
+> **df** - possibilita a visualização do espaço em di
