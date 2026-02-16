@@ -633,4 +633,13 @@ sudo adduser --system nome_do_serviço
 sudo deluser --remove-home usuario
 ~~~
 
-> **passw
+> **passwd** - utilizado para alterar a senha de um usuário.
+~~~bash
+passwd
+
+# Quando operado sem argumentos, altera a senha do usuário atual
+
+# Alterar a senha de outro usuário
+
+sudo pass
+~~~
