@@ -66,3 +66,5 @@ ps aux | grep $var1
 echo "Portas abertas:"
 netstat -nlpt
 ~~~
+
+## Trabalhando com condições
