@@ -467,4 +467,8 @@ top
 ~~~
 - para resultados mais amigáveis, utilizar o **htop**, que permite usar o mouse e setas do teclado para navegar, além de apresentar o resultado em cores
 
-> 
+> **ps** - exibe dados sobre os processos que estão em execução no sistema. Informações como o ID e a quantidade de recursos utilizados por cada um.
+~~~bash
+ps [opções]
+~~~
+- **-A ou -e**: 
