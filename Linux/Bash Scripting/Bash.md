@@ -29,4 +29,12 @@ echo 'User atual:' $(whoami)
 ip=192.168.0.1
 echo "Varrendo o host:" $ip
 ~~~
-- Pega u
+- utiliza um valor determinado pelo usuário
+~~~bash
+#!/bin/bash
+
+echo "Digite o IP:"
+read ip
+
+echo "Varrendo o host:" $ip
+~~~
