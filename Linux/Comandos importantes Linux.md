@@ -460,3 +460,5 @@ uname [opção]
 - **-a**: mostra todos os dados do sistema
 - **-r**: imprime a versão do Linux
 - **-n**: mostra o hostname do node do sistema
+
+> **top** - exibe todos os processos em execução e também mostra quanto da CPU cada 
