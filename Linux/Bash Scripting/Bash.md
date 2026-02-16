@@ -23,3 +23,10 @@ echo 'User atual:' $(whoami)
 
 ## Variáveis
 
+~~~bash
+#!/bin/bash
+
+ip=192.168.0.1
+echo "Varrendo o host:" $ip
+~~~
+- Pega u
