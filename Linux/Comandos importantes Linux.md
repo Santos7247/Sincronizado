@@ -703,4 +703,7 @@ sudo -l
 ~~~bash
 hostname [opção]
 ~~~
-- 
+- **-a**: mostra o alias do nome do host
+- **-A**: exibe o nome do domínio totalmente qualificado da máquina
+- **-I**: mostra o endereço de IP do dispositivo
+
