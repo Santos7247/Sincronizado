@@ -555,7 +555,17 @@ chmod 777 arquivo
 
 # Dono faz tudo, grupo e outros apenas leem e executam
 
-chmod
+chmod 755 arquivo
+
+# Dono lê e escreve, os outros apenas leem (padrão para arquivos comuns)
+
+chmod 644 arquivo
+
+# Só o dono lê e escreve, ninguém vê mais nada
+
+chmod 600 arquivo
+
+# Tor
 ~~~
 - permissões básicas:
 	- *r / 4* (read)
