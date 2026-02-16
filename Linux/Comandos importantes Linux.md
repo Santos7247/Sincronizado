@@ -488,4 +488,12 @@ ps axjf
 - **T**: mostra todos os processos relacionados à atual sessão do shell
 - **-x**: inclui processos que não foram iniciados no terminal (serviços de fundo)
 
->**free** - verifica a quantidade de memória atual, em uso e disponível
+>**free** - verifica a quantidade de memória atual, em uso e disponível.
+~~~bash
+free [opção]
+
+
+~~~
+- **-b**: apresenta a quantidade de memória em bytes
+- **-g**: apresenta a quantidade de memória em gigabytes
+- **-g**: apresenta a quantidade de memória em gigabytes
