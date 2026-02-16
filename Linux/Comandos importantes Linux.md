@@ -641,5 +641,19 @@ passwd
 
 # Alterar a senha de outro usuário
 
-sudo pass
+sudo passwd nome_do_usuario
+
+# Remover a senha de um usuário
+
+sudo passwd -d nome_do_usuario
+
+# Bloquear a conta de um usuário
+
+sudo passwd -l nome_do_usuario
+
+# Desbloquear a conta
+
+sudo passwd -d nome_do_usuario
+
+
 ~~~
