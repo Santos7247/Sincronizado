@@ -593,9 +593,6 @@ chmod -R 755 minha_pasta/
 - **-f**: suprime as mensagens de erro
 - **-v** imprime detalhes do que está sendo feito pelo comando
 - **-R**: aplica em pastas inteiras
-```
-<div style="text-align: center;">
-  ![[Pasted image 20260216151322.png]]
-</div>
-```
+![[Pasted image 20260216151322.png]]
 
+> **chown** - 
