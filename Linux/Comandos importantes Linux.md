@@ -529,4 +529,9 @@ du [opção][dirtório]
 exit
 ~~~
 
-> **man** - acesso ao manual 
+> **man** - acesso ao manual completo para todos os comando que podem ser executados no terminal.
+~~~bash
+man [nome do comando]
+~~~
+- **-a**: mostra todas as páginas de acordo com o termo utilizado para pesquisar um comando
+- **-k**: busca nos índices do manual uma palavra específ
