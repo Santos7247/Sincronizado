@@ -550,9 +550,10 @@ history [opção]
 chmod [opção][permissão][nome_do_arquivo]
 ~~~
 - permissões básicas:
-	- *r* (read)
-	- *w* (write)
-	- *x* (execute)
+	- *r / 4* (read)
+	- *w / 2* (write)
+	- *x / 1* (execute)
+	- *0* nenhuma permissão
 - **-c**: informa quando a última alteração foi realizada
 - **-f**: suprime as mensagens de erro
 - **-v** imprime detalhes do que está sendo feito pelo comando
