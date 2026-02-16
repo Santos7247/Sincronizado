@@ -69,4 +69,8 @@ netstat -nlpt
 
 ## Trabalhando com condições
 
-- **
+- **lt** - less than **<**
+- **gt** - greater than **>**
+- **le** - less or equal **<=**
+- **ge** greater or equal >=
+- **eq** 
