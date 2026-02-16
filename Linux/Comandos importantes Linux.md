@@ -679,5 +679,17 @@ su -c "ls /root" root
 
 > **sudo** - "Substitute User Do" executar comando com privilégios de superusuário.
 ~~~bash
+sudo [comando]
 
+# Executar um comando como root
+
+sudo apt update
+
+# Virar root temporariamente
+
+sudo -i
+
+# Executar um comando como outro usuário (que não seja o root)
+
+sudo -
 ~~~
