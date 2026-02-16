@@ -691,5 +691,11 @@ sudo -i
 
 # Executar um comando como outro usuário (que não seja o root)
 
-sudo -
+sudo -u nome_do_usuario comando
+
+# Verificar seus privilégio
+
+sudo -l
 ~~~
+- Obs.: ele registra cada comando executado em um log (/var/log/auth.log)
+- 
