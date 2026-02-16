@@ -55,5 +55,14 @@ ping -c1 $ip
 ~~~bash
 #!/bin/bash
 
+echo "Digite o serviço a ser iniciado:"
+read var1
 
+service $var1 restart
+
+echo "Serviçoes ativos:"
+ps aux | grep $var1
+
+echo "Portas abertas:"
+netstat -nlpt
 ~~~
