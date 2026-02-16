@@ -496,4 +496,7 @@ free [opção]
 ~~~
 - **-b**: apresenta a quantidade de memória em bytes
 - **-g**: apresenta a quantidade de memória em gigabytes
-- **-g**: apresenta a quantidade de memória em gigabytes
+- **-k**: apresenta a quantidade de memória em quilobytes
+- **-m**: apresenta a quantidade de memória em megabytes
+- **-tera**: apresenta a quantidade de memória em terabytes
+- **-h**: exibe todos os campos de saída dimensionados automaticamente para a unidade de três digitos mais curta, 
