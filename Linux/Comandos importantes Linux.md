@@ -677,4 +677,7 @@ su -c "ls /root" root
 - **-h**: mostra as opções de comando com todos os parâmetros e aplicações dele
 - **-l**: fornece um ambiente similar ao que o usuário teria se tivesse iniciado aquela sessão
 
-> **sudo** - executar comando com privilégios de superus
+> **sudo** - "Substitute User Do" executar comando com privilégios de superusuário.
+~~~bash
+
+~~~
