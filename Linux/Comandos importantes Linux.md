@@ -501,16 +501,21 @@ free [opção]
 - **-tera**: apresenta a quantidade de memória em terabytes
 - **-h**: exibe todos os campos de saída dimensionados automaticamente para a unidade de três dígitos mais curta
 
-> **whoami** - utilizado para mostrar o nome do usuário com o qual você está conectado com o sistema naquele momento
+> **whoami** - utilizado para mostrar o nome do usuário com o qual você está conectado com o sistema naquele momento.
 ~~~bash
 whoami
 ~~~
 
-> **df** - possibilita a visualização do espaço em disco usado e disponível
+> **df** - possibilita a visualização do espaço em disco usado e disponível.
 ~~~bash
 df [opção]
 ~~~
 - **-h**: exibe os dados em formato legível
 - **-m**: apresenta as informações em megabytes
 - **-k**: mostra os dados em quilobytes
-- **-t**: apresenta o tipo de sistema de 
+- **-t**: apresenta o tipo de sistema de arquivos em uma nova coluna
+
+> **du** - verifica quanto espaço do disco um arquivo ou diretório está ocupando.
+~~~bash
+df [opção]
+~~~
