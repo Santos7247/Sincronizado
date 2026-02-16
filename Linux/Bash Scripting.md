@@ -72,5 +72,16 @@ netstat -nlpt
 - **lt** - less than **<**
 - **gt** - greater than **>**
 - **le** - less or equal **<=**
-- **ge** greater or equal >=
-- **eq** 
+- **ge** - greater or equal >=
+- **eq** - equal =
+- **ne** - not equal !=
+
+~~~bash
+#!/bin/bash
+
+echo "Qual a cor do semáforo?"
+read cor
+if [ "$cor" == "verde" ]
+then
+	
+~~~
