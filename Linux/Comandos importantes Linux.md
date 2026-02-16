@@ -506,4 +506,11 @@ free [opção]
 whoami
 ~~~
 
-> **df** - possibilita a visualização do espaço em di
+> **df** - possibilita a visualização do espaço em disco usado e disponível
+~~~bash
+df [opção]
+~~~
+- **-h**: exibe os dados em formato legível
+- **-m**: apresenta as informações em megabytes
+- **-k**: mostra os dados em quilobytes
+- **-t**: apresenta o tipo de sistema de 
