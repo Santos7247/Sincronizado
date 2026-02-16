@@ -628,5 +628,9 @@ sudo adduser usuario sudo
 
 sudo adduser --system nome_do_serviço
 
-# Remover um usuário completamen
+# Remover um usuário completamente
+
+sudo deluser --remove-home usuario
 ~~~
+
+> **passw
