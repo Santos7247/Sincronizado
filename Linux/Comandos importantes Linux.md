@@ -534,4 +534,11 @@ exit
 man [nome do comando]
 ~~~
 - **-a**: mostra todas as páginas de acordo com o termo utilizado para pesquisar um comando
-- **-k**: busca nos índices do manual uma palavra específ
+- **-k**: busca nos índices do manual uma palavra específica
+
+> **history** - apresenta uma lista com até 500 comandos executado
+~~~bash
+history [opção]
+~~~
+- **-c**: limpa o histórico
+- **-d**: offset: exclui apenas o 
