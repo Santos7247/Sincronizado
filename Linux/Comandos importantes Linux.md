@@ -569,14 +569,22 @@ chmod 600 arquivo
 
 chmod +x script.sh
 
+# Remover permissões de escrita do grupo e outros
 
+chmod go-w arquivo.txt
+
+# Dar permissão total apenas ao dono
+
+chmod u=rwx arquivo.txt
 ~~~
 - permissões básicas:
 	- *r / 4* (read)
 	- *w / 2* (write)
 	- *x / 1* (execute)
 	- *0* nenhuma permissão
-	- + 
+	- *+* adicionar
+	- - remover
+	- = definir exatamente
 - **-c**: informa quando a última alteração foi realizada
 - **-f**: suprime as mensagens de erro
 - **-v** imprime detalhes do que está sendo feito pelo comando
