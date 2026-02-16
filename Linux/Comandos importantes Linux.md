@@ -653,7 +653,11 @@ sudo passwd -l nome_do_usuario
 
 # Desbloquear a conta
 
-sudo passwd -d nome_do_usuario
+sudo passwd -u nome_do_usuario
 
+# Forçar o usuário a trocar a senha no próximo login
 
+sudo passwd -e nome_do_usuario
 ~~~
+
+> **su** - essa requisição é utilizada para alterar o 
