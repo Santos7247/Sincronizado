@@ -519,3 +519,9 @@ df [opção]
 ~~~bash
 df [opção]
 ~~~
+- **-s**: exibe o tamanho total de uma pasta especificada
+- **-h**: oferece unidade mais inteligível
+- **-m**: mostra as informações em megabytes
+- **-k**: mostra as informações em quilobytes
+
+>
