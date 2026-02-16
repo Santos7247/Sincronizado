@@ -541,4 +541,8 @@ man [nome do comando]
 history [opção]
 ~~~
 - **-c**: limpa o histórico
-- **-d**: offset: exclui apenas o 
+- **-d**: offset: exclui apenas o histórico na posição OFFSET
+- **-a**: adiciona linhas ao histórico
+# Permissões e usuários
+
+> **chmod** - altera as permissões d
