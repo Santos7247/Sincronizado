@@ -548,6 +548,14 @@ history [opção]
 > **chmod** - "Change Mode" altera as permissões de um arquivo de maneira rápida e prática.
 ~~~bash
 chmod [opção][permissão][nome_do_arquivo]
+
+# Todo mundo faz tudo, soma os valores para cada categoria: DONO, GRUPO e OUTROS
+
+chmod 777 arquivo
+
+# Dono faz tudo, grupo e outros apenas leem e executam
+
+chmod
 ~~~
 - permissões básicas:
 	- *r / 4* (read)
