@@ -698,4 +698,9 @@ sudo -u nome_do_usuario comando
 sudo -l
 ~~~
 - Obs.: ele registra cada comando executado em um log (/var/log/auth.log)
+
+> **hostname** - muito utilizado para identificar o nome do host do sistema, mas também pode ser empregado para alterar esse nome.
+~~~bash
+hostname [opção]
+~~~
 - 
