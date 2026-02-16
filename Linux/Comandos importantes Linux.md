@@ -702,8 +702,13 @@ sudo -l
 > **hostname** - muito utilizado para identificar o nome do host do sistema, mas também pode ser empregado para alterar esse nome.
 ~~~bash
 hostname [opção]
+
+# Altera o nome temporariamente
+
+sudo hostname no
 ~~~
 - **-a**: mostra o alias do nome do host
 - **-A**: exibe o nome do domínio totalmente qualificado da máquina
 - **-I**: mostra o endereço de IP do dispositivo
+- **-f**: ver o nome completo de domínio (FQDN)
 
