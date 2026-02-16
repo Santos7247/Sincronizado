@@ -68,3 +68,5 @@ netstat -nlpt
 ~~~
 
 ## Trabalhando com condições
+
+- **
