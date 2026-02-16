@@ -131,8 +131,9 @@ esac
 if [ "$1" == ""]
 then
 	echo "Modo de uso: $0 192.168.0.1 80"
-
-echo "Varrendo host: $1 e porta $2"
+else
+	echo "Varrendo host: $1 e porta $2"
+fi
 ~~~
 
 - Executando o script com argumentos:
