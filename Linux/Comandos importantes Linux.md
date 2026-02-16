@@ -613,5 +613,10 @@ sudo chown :webmasters index.html
 
 # Aplica em uma pasta e tudo que estiver dentro dela
 
-sudo chown -R usuario:gripo
+sudo chown -R usuario:grupo /var/www/meu_site
 ~~~
+
+> **adduser** - pode ser utilizado para criar um usuário ou adicionar um usuário a um grupo específico.
+~~~bash
+
+
