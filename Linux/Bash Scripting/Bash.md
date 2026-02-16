@@ -3,7 +3,7 @@ nano script.sh
 
 # Dá permissão de execução ao script
 
-chmod +x s
+chmod +x script.sh
 ~~~
 
 
@@ -14,6 +14,8 @@ chmod +x s
 
 echo "Desec Security"
 
+# Exibe o resultado do comando após o texto
 
+echo 'Sistema ligado por:' $(uptime -p)
 ~~~
 
