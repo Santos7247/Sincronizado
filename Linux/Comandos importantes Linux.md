@@ -665,4 +665,6 @@ sudo passwd -e nome_do_usuario
 su [opção] [nome_do_usuario]
 ~~~
 - **-c**: executar comando usando privilégios do usuário especificado
-- **-s**: delimita o ambiente shell para o 
+- **-s**: delimita o ambiente shell para o usuário especificado usar
+- **-h**: mostra as opções de comando com todos os parâmetros e aplicações dele
+- **-l**: fornece um ambiente similar ao que o usuário teria se tivesse iniciado aquela sessão
