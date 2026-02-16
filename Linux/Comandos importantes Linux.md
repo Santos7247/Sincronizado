@@ -705,7 +705,11 @@ hostname [opção]
 
 # Altera o nome temporariamente
 
-sudo hostname no
+sudo hostname novo_nome_da_maquina
+
+# Alterna o nome permanentemente
+
+sudo hostnamectl set-hostame novo_nome_aqui
 ~~~
 - **-a**: mostra o alias do nome do host
 - **-A**: exibe o nome do domínio totalmente qualificado da máquina
