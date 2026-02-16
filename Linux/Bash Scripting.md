@@ -126,10 +126,13 @@ esac
 ~~~bash
 #!/bin/bash
 
+# Validando se o usuário colocou o argumento
+
 echo "Varrendo host: $1 e porta $2"
 ~~~
 
 - Executando o script com argumentos:
-~~~b
-
+~~~bash
+./script.sh 192.168.0.1 8000
 ~~~
+
