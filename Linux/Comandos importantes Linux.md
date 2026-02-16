@@ -601,5 +601,17 @@ chown [opção] [novo_dono]:[novo_grupo] arquivos
 
 # Transforma usuário Pedro no dono do arquivo
 
-chown pedro documento.txt
+sudo chown pedro documento.txt
+
+# Muda dono e grupo ao mesmo tempo
+
+sudo chown maria:editores texto.doc
+
+# Muda apenas o grupo
+
+sudo chown :webmasters index.html
+
+# Aplica em uma pasta e tudo que estiver dentro dela
+
+sudo chown -R usuario:gripo
 ~~~
