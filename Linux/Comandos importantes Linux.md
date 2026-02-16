@@ -549,7 +549,7 @@ history [opção]
 ~~~bash
 chmod [opção][permissão][nome_do_arquivo]
 
-# Todo mundo faz tudo, soma os valores para cada categoria: DONO, GRUPO e OUTROS
+# Todo mundo faz tudo, soma os valores para cada categoria: (u) DONO, (g) GRUPO e (o) OUTROS - (a) TODOS
 
 chmod 777 arquivo
 
@@ -565,13 +565,18 @@ chmod 644 arquivo
 
 chmod 600 arquivo
 
-# Tor
+# Torna um arquivo executável
+
+chmod +x script.sh
+
+
 ~~~
 - permissões básicas:
 	- *r / 4* (read)
 	- *w / 2* (write)
 	- *x / 1* (execute)
 	- *0* nenhuma permissão
+	- + 
 - **-c**: informa quando a última alteração foi realizada
 - **-f**: suprime as mensagens de erro
 - **-v** imprime detalhes do que está sendo feito pelo comando
