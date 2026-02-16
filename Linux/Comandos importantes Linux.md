@@ -545,7 +545,7 @@ history [opção]
 - **-a**: adiciona linhas ao histórico
 # Permissões e usuários
 
-> **chmod** - altera as permissões de um arquivo de maneira rápida e prática.
+> **chmod** - "Change Mode" altera as permissões de um arquivo de maneira rápida e prática.
 ~~~bash
 chmod [opção][permissão][nome_do_arquivo]
 ~~~
@@ -555,4 +555,4 @@ chmod [opção][permissão][nome_do_arquivo]
 	- *x* (execute)
 - **-c**: informa quando a última alteração foi realizada
 - **-f**: suprime as mensagens de erro
-- **-v** imprime det
+- **-v** imprime detalhes do que está sendo feito pelo comando
