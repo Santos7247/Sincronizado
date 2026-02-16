@@ -123,3 +123,13 @@ esac
 ~~~
 ## Argumentos
 
+~~~bash
+#!/bin/bash
+
+echo "Varrendo host: $1 e porta $2"
+~~~
+
+- Executando o script com argumentos:
+~~~b
+
+~~~
