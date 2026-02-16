@@ -40,7 +40,7 @@ porta=80
 echo "Varrendo o host: $ip na porta: $porta"
 ~~~
 
-- executando comando
+- executando comandos
 
 ~~~bash
 #!/bin/bash
@@ -49,5 +49,11 @@ echo "Digite o IP:"
 read ip
 
 echo "Efetuando PING no host:" %ip
-ping -c1 $
+ping -c1 $ip
+~~~
+
+~~~bash
+#!/bin/bash
+
+
 ~~~
