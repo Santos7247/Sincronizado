@@ -151,6 +151,8 @@ echo {a..z}
 seq 1 10
 ~~~
 
+> **for**
+
 ~~~bash
 for ip in {1..10};do echo 192.168.0.$ip;done
 ~~~
@@ -162,4 +164,10 @@ for ip in $(seq 100 120);
 do
 echo 172.16.1.$ip
 done
+~~~
+
+>**while**
+
+~~~bash
+while true; do echo "Hacked"
 ~~~
