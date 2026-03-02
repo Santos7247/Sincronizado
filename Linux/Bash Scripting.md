@@ -154,3 +154,12 @@ seq 1 10
 ~~~bash
 for ip in {1..10};do echo 192.168.0.$ip;done
 ~~~
+
+~~~bash
+#!/bin/bash
+
+for ip in $(seq 100 120);
+do
+echo 172.16.1.$ip
+done
+~~~
