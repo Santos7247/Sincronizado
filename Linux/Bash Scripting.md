@@ -143,5 +143,10 @@ fi
 
 ## Repetições
 ~~~bash
+# Cria uma sequência de 1 a 10
 
+echo {1..10}
+echo {a..z}
+
+seq 1 10
 ~~~
