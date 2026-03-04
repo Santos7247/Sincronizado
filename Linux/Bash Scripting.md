@@ -169,5 +169,5 @@ done
 >**while**
 
 ~~~bash
-while true; do echo "Hacked"
+while true; do echo "Hacked";done
 ~~~
