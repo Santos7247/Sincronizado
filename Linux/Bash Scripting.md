@@ -174,6 +174,8 @@ while true; do echo "Hacked";done
 
 ## Exercício de fixação
 
+> **Objetivo**: criar um script para descobrir hosts ativos utilizando o ping. O usuário deve informar a rede e o script deve retornar os host que respondem ao ping.
+
 ~~~bash
 #!/bin/bash
 
