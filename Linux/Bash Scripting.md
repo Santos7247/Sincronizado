@@ -177,5 +177,11 @@ while true; do echo "Hacked";done
 ~~~bash
 #!/bin/bash
 
-if []
+if [ "$1" == ""]
+then
+	echo "Desec Security = Ping Sweep"
+	echo "Modo de uso: $0 Rede"
+	echo "Exemplo: $0 192.168.0"
+else
+
 ~~~
