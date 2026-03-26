@@ -192,4 +192,9 @@ done
 ~~~
 ## PortScan de rede
 
-> 
+> **Objetivo**: Criar um script para descobrir quais hosts na rede possuem uma determinada porta aberta. O usuário deve informar a rede e o script deve retornar os host que possuem a porta 80 aberta.
+
+~~~bash
+#!/bin/bash
+
+~~~
