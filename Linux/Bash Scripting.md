@@ -172,3 +172,5 @@ done
 while true; do echo "Hacked";done
 ~~~
 
+## Exercício de fixação
+
