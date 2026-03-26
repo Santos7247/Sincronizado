@@ -202,5 +202,8 @@ then
 	echo "Modo de uso: $0 Rede"
 	echo "Exemplo: $0 172.16.1"
 else
-for ip in 
+for ip in {1..254};
+do
+hping -S -p 80 -c 1 $1.$ip;
+done
 ~~~
