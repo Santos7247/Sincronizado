@@ -196,5 +196,11 @@ done
 
 ~~~bash
 #!/bin/bash
-
+if [ "$1" == "" ]
+then
+	echo "Desec Security"
+	echo "Modo de uso: $0 Rede"
+	echo "Exemplo: $0 172.16.1"
+else
+for ip in 
 ~~~
