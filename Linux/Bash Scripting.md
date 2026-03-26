@@ -187,6 +187,6 @@ then
 else
 for host in {1..254};
 do
-ping -c 1 $1.$host;
+ping -c 1 $1.$host | grep "64 bytes";
 done
 ~~~
