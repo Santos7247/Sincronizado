@@ -204,6 +204,6 @@ then
 else
 for ip in {1..254};
 do
-hping -S -p 80 -c 1 $1.$ip;
+hping -S -p 80 -c 1 $1.$ip | ;
 done
 ~~~
