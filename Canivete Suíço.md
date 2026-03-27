@@ -1,3 +1,4 @@
+# Bash Scripting
 ## PortScan de rede
 
 > **Objetivo**: Criar um script para descobrir quais hosts na rede possuem uma determinada porta aberta. O usuário deve informar a rede e o script deve retornar os host que possuem a porta 80 aberta.
@@ -18,7 +19,7 @@ done
 
 ## Parsing HTML
 
-> **Objetivo**: Criar um script para identificar possíveis hosts em um domínio. O usuário deve informar o domínio e caso o site possua subdomínios na página ele deve retornar o 
+> **Objetivo**: Criar um script para identificar possíveis hosts em um domínio. O usuário deve informar o domínio e caso o site possua subdomínios na página ele deve retornar o IP dos hosts.
 
 ~~~bash
 
