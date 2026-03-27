@@ -15,3 +15,11 @@ do
 hping -S -p 80 -c 1 $1.$ip 2> /dev/null | grep "flags=SA" | cut -d " " -f 2 | cut -d "=" -f 2;
 done
 ~~~
+
+## Parsing HTML
+
+> **Objetivo**: Criar um script para identificar possíveis hosts em um domínio. O usuário deve informar o domínio e caso o site possua subdomínios na página ele deve retornar o 
+
+~~~bash
+
+~~~
