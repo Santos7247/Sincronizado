@@ -29,5 +29,7 @@ wget businesscorp.com.br
 
 grep href index.html | cut -d "/" -f 3 | grep "\." | cut -d '"' -f 1 | grep -v "<l" > lista
 
-3º Passo: 
+# 3º Passo: descobrir o endereço IP de um domínio
+
+for url in $l
 ~~~
