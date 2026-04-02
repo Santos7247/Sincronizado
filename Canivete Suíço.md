@@ -21,5 +21,7 @@ done
 > **Objetivo**: Criar um script para identificar possíveis hosts em um domínio. O usuário deve informar o domínio e caso o site possua subdomínios na página ele deve retornar o IP dos hosts.
 
 ~~~bash
-# Extrair o código HTML da páigna
+# 1º Passo: xtrair o código HTML da páigna e salvar o conteúdo como index.html
+
+wget businesscorp.com.br
 ~~~
