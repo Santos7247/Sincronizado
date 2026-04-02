@@ -27,5 +27,5 @@ wget businesscorp.com.br
 
 # 2º Passo: analisar o código fonte atrás de endereços
 
-grep href index.html | cut -d "/" -f 3 | grep "\." 
+grep href index.html | cut -d "/" -f 3 | grep "\." | cut -d '"' -f 1
 ~~~
