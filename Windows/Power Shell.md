@@ -37,6 +37,11 @@ ping -n 1 $ip | Select-String "bytes=32"
 ~~~
 
 ## Condições e Repetições
+
+~~~powershell
+foreach ($var1 in 1..10) {echo "192.168.0.$var1}
+~~~
+
 ~~~powershell
 $idade = Read-Host "Qual a idade?"
 if ($idade -ge "18"){
@@ -45,3 +50,5 @@ if ($idade -ge "18"){
 	echo "Não pode dirigir"
 }
 ~~~
+
+
