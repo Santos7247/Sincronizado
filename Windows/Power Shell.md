@@ -96,4 +96,8 @@ Test-NetConnection www.businesscorp.com.br -TraceRoute -Hop 2
 # Valida se uma porta está aberta
 
 Test-NetConnection www.businesscorp.com.br -Port 80
+
+# Traz somente a informação referente a porta
+
+Test-NetConnection www.businesscorp.com.br -Port 80 -WarningAction SilentlyContinue -in
 ~~~
