@@ -21,5 +21,5 @@ echo "Varrendo o Host: $ip"
 $ip = Read-host "Digite o IP:"
 echo "Varrendo o Host: $ip"
 echo "Efetuando Ping no Host: $ip"
-ping -n 1 $ip
+ping -n 1 $ip | Select-String "bytes=32"
 ~~~
