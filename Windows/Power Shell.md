@@ -55,6 +55,7 @@ if ($idade -ge "18"){
 
 ~~~powershell
 # Filtrando os resultados, é necessário tornar o comando "ping" em uma variável
+# Os comandos "try" e "catch" servem para tratar os erros e não exibir na tela
 
 param($p1)
 if (!$p1){
@@ -64,7 +65,7 @@ if (!$p1){
 foreach ($ip in 1..254){
 try {$resp = ping -n 1 "$p1.$ip" | Select-String "bytes=32"
 $resp.Line.split(' ')[2] - replace ":",""
-}
+} catch {}
 }
 }
 ~~~
