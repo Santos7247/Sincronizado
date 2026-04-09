@@ -4,7 +4,7 @@
 ~~~powershell
 # Filtrando os comandos
 
-Get-Command
+Get-Command | Select-String Test
 ~~~
 # Criando um script em Power Shell
 ~~~powershell
