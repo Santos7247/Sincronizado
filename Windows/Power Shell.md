@@ -88,4 +88,12 @@ Test-NetConnection www.businesscorp.com.br
 # Faz o traceroute
 
 Test-NetConnection www.businesscorp.com.br -TraceRoute
+
+# Delimita a quantidade de saltos
+
+Test-NetConnection www.businesscorp.com.br -TraceRoute -Hop 2
+
+# Valida se uma porta está aberta
+
+Test-NetConnection www.businesscorp.com.br -Port 80
 ~~~
