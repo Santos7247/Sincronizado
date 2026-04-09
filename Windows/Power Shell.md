@@ -114,10 +114,10 @@ if(!$ip){
 } else {
 foreach ($porta in 1..1024){
 if (Test-NetConnection $ip$ -Port $porta$ -WarningAction SilentlyContinue -InformationLevel Quiet){
-	echo "Porta aberta"
-} else {
-	echo "Porta fechada"
-}}
+	echo "Porta $porta aberta"
+}} else {
+	echo "Porta $porta fechada"
+}
 }
 
 ~~~
