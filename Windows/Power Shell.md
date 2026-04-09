@@ -103,5 +103,11 @@ Test-NetConnection www.businesscorp.com.br -Port 80 -WarningAction SilentlyConti
 
 # Direto na linha de comando é possível fazer uma condição para verificar se o resultado do comando é "True" ou "Flase"
 
-if (Test-NetConnection www.businesscorp.com.br -Port 80 -WarningAction SilentlyContinue -InformationLevel Quiet) {echo "Porta Aberta"} else 
+if (Test-NetConnection www.businesscorp.com.br -Port 80 -WarningAction SilentlyContinue -InformationLevel Quiet) {echo "Porta aberta"} else {"Porta fechada"}
+~~~
+
+~~~powershell
+if (Test-NetConnection www.businesscorp.com.br -Port 80 -WarningAction SilentlyContinue -InformationLevel Quiet) {
+	echo "Porta aberta"
+} else {"Porta fechada"}
 ~~~
