@@ -99,5 +99,5 @@ Test-NetConnection www.businesscorp.com.br -Port 80
 
 # Traz somente a informação referente a porta
 
-Test-NetConnection www.businesscorp.com.br -Port 80 -WarningAction SilentlyContinue -in
+Test-NetConnection www.businesscorp.com.br -Port 80 -WarningAction SilentlyContinue -InformationLevel Quiet
 ~~~
