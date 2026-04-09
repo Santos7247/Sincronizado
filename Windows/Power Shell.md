@@ -1,5 +1,5 @@
 # Criando um script em Power Shell
-~~~bash
+~~~powershell
 notepad script.ps1
 
 # Para executar
@@ -8,7 +8,12 @@ notepad script.ps1
 ~~~
 
 Script simples
-~~~bash
+~~~powershell
 echo "Meu diretório atual: $(pwd)"
 write-Host "Meu usuário atual: $(whoami)"
+
+$ip = "192.168.0.1"
+echo "Varrendo o Host: $ip"
 ~~~
+
+## 
