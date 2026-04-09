@@ -20,4 +20,6 @@ echo "Varrendo o Host: $ip"
 ~~~powershell
 $ip = Read-host "Digite o IP:"
 echo "Varrendo o Host: $ip"
+echo "Efetuando Ping no Host: $ip"
+ping -n 1 $ip
 ~~~
