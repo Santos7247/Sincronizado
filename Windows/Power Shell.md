@@ -16,4 +16,8 @@ $ip = "192.168.0.1"
 echo "Varrendo o Host: $ip"
 ~~~
 
-## 
+## Variável
+~~~powershell
+$ip = Read-host "Digite o IP:"
+echo "Varrendo o Host: $ip"
+~~~
