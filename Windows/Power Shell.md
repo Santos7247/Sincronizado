@@ -6,3 +6,8 @@ notepad script.ps1
 
 .\script.ps1
 ~~~
+
+Script simples
+~~~bash
+echo "Meu diretório atual: $"
+~~~
