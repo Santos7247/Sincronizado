@@ -63,7 +63,7 @@ if (!$p1){
 } else {
 foreach ($ip in 1..254){
 $resp = ping -n 1 "$p1.$ip" | Select-String "bytes=32"
-$resp.Line.spli(':')[]
+$resp.Line.split(' ')[2]
 }
 }
 ~~~
