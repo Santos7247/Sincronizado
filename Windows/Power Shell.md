@@ -29,8 +29,9 @@ ping -n 1 $ip | Select-String "bytes=32"
 param($ip)
 if (!$ip){
 	echo "Desec Security"
-	echo "Exemplo de uso"
-}
+	echo "Exemplo de uso: .\script.ps1 192.168.0.1"
+} else {
 echo "Efetuando ping no Host: $ip"
 ping -n 1 $ip | Select-String "bytes=32"
+}
 ~~~
