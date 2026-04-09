@@ -114,6 +114,10 @@ if(!$ip){
 } else {
 $topports = 21,22,25,80,443,3306
 foreach ($porta in 1..1024){
+
+# Realizando a varredura na lista de portas
+# foreach ($porta in $topports){
+
 if (Test-NetConnection $ip -Port $porta -WarningAction SilentlyContinue -InformationLevel Quiet){
 	echo "Porta $porta aberta"
 }} else {
