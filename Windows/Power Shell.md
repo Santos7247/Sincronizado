@@ -100,4 +100,8 @@ Test-NetConnection www.businesscorp.com.br -Port 80
 # Traz somente a informação referente a porta
 
 Test-NetConnection www.businesscorp.com.br -Port 80 -WarningAction SilentlyContinue -InformationLevel Quiet
+
+# Direto na linha de comando é possível fazer uma condição para verificar se o resultado do comando é "True" ou "Flase"
+
+if (Test-NetConnection www.businesscorp.com.br -Port 80 -WarningAction SilentlyContinue -InformationLevel Quiet) {echo "Porta Aberta"} else 
 ~~~
