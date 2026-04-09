@@ -54,7 +54,7 @@ if ($idade -ge "18"){
 ### Ping Sweep
 
 ~~~powershell
-# Filtrando os resultados, é necessár
+# Filtrando os resultados, é necessário tornar o comando "ping" em uma variável
 
 param($p1)
 if (!$p1){
@@ -62,7 +62,8 @@ if (!$p1){
 	echo "Exemplo de uso: .\script.ps1 192.168.0"
 } else {
 foreach ($ip in 1..254){
-ping -n 1 "$p1.$ip" | Select-String "bytes=32"
+$resp = ping -n 1 "$p1.$ip" | Select-String "bytes=32"
+$resp.Line.spli(':')[]
 }
 }
 ~~~
