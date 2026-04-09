@@ -1,5 +1,11 @@
 
 > O comando "Get-Command" lista os comandos do Power Shell
+
+~~~powershell
+# Filtrando os comandos
+
+Get-Command
+~~~
 # Criando um script em Power Shell
 ~~~powershell
 notepad script.ps1
