@@ -81,5 +81,11 @@ $resp.Line.split(' ')[2] - replace ":",""
 ### Port Scanner
 
 ~~~powershell
+# Testa a conexão com um Host
 
+Test-NetConnection www.businesscorp.com.br
+
+# Faz o traceroute
+
+Test-NetConnection www.businesscorp.com.br -TraceRoute
 ~~~
