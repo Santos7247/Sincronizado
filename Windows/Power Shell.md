@@ -51,7 +51,11 @@ if ($idade -ge "18"){
 }
 ~~~
 
+### Ping Sweep
+
 ~~~powershell
+# Filtrando os resultados, é necessár
+
 param($p1)
 if (!$p1){
 	echo "Desec Security"
