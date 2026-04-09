@@ -26,5 +26,11 @@ ping -n 1 $ip | Select-String "bytes=32"
 
 ## Parâmetros
 ~~~powershell
-param
+param($ip)
+if (!$ip){
+	echo "Desec Security"
+	echo "Exemplo de uso"
+}
+echo "Efetuando ping no Host: $ip"
+ping -n 1 $ip | Select-String "bytes=32"
 ~~~
