@@ -113,16 +113,16 @@ if(!$ip){
 	echo ".\portscan.ps1 192.168.0.1 80"
 } else {
 $topports = 21,22,25,80,443,3306
-foreach ($porta in 1..1024){
+try {foreach ($porta in 1..1024){
 
 # Realizando a varredura na lista de portas
-# foreach ($porta in $topports){
+# try {foreach ($porta in $topports){
 
 if (Test-NetConnection $ip -Port $porta -WarningAction SilentlyContinue -InformationLevel Quiet){
 	echo "Porta $porta aberta"
 }} else {
 	echo "Porta $porta fechada"
-}
+}} catch {}
 }
 
 ~~~
