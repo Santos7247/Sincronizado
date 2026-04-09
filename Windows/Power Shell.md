@@ -41,5 +41,7 @@ ping -n 1 $ip | Select-String "bytes=32"
 $idade = Read-Host "Qual a idade?"
 if ($idade -ge "18"){
 	echo "Pode dirigir"
-} else {}
+} else {
+	echo "Não pode dirigir"
+}
 ~~~
