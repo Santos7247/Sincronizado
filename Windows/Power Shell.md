@@ -1,3 +1,5 @@
+
+> O comando "Get-Command" lista os comandos do Power Shell
 # Criando um script em Power Shell
 ~~~powershell
 notepad script.ps1
@@ -70,4 +72,8 @@ $resp.Line.split(' ')[2] - replace ":",""
 }
 ~~~
 
-### Port Sc
+### Port Scanner
+
+~~~powershell
+
+~~~
