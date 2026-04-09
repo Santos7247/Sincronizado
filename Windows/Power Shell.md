@@ -9,5 +9,6 @@ notepad script.ps1
 
 Script simples
 ~~~bash
-echo "Meu diretório atual: $"
+echo "Meu diretório atual: $(pwd)"
+write-Host "Meu usuário atual: $(whoami)"
 ~~~
