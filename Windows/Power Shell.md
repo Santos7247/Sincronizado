@@ -1,4 +1,8 @@
 # Criando um script em Power Shell
-~~~
-notepad
+~~~bash
+notepad script.ps1
+
+# Para executar
+
+.\script.ps1
 ~~~
