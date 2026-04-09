@@ -108,8 +108,10 @@ if (Test-NetConnection www.businesscorp.com.br -Port 80 -WarningAction SilentlyC
 
 ~~~powershell
 param($ip,$porta)
-
-if (Test-NetConnection $ip$ -Port $porta$ -WarningAction SilentlyContinue -InformationLevel Quiet) {
+if(!$ip){
+	echo "Desec Security"
+}
+if (Test-NetConnection $ip$ -Port $porta$ -WarningAction SilentlyContinue -InformationLevel Quiet){
 	echo "Porta aberta"
 } else {
 	echo "Porta fechada"
