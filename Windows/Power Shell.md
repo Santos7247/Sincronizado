@@ -38,5 +38,8 @@ ping -n 1 $ip | Select-String "bytes=32"
 
 ## Condições e Repetições
 ~~~powershell
-
+$idade = Read-Host "Qual a idade?"
+if ($idade -ge "18"){
+	echo "Pode dirigir"
+} else {}
 ~~~
