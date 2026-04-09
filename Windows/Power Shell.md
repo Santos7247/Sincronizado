@@ -23,3 +23,8 @@ echo "Varrendo o Host: $ip"
 echo "Efetuando Ping no Host: $ip"
 ping -n 1 $ip | Select-String "bytes=32"
 ~~~
+
+## Parâmetros
+~~~powershell
+param
+~~~
