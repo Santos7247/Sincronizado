@@ -56,12 +56,13 @@ ls -R /etc
 ~~~
 ## Wildcards (curingas)
 	 São caracteres que podem ser utilizados como curingas em alguns comandos, ou seja, podem substituir outros caracteres ou sequências de caracteres. São o (asterisco),  (?) e ([]). Só podem ser utilizados em comandos que manipulam arquivos e diretórios.
-
 ### Asterisco
 	Representa "de zero a infinito". Exemplos:
 	- *txt -> qualquer arquivo (diretório) cujo nome seja ou termine com txt. Ex.: teste.txt, eu.sou_legal.txt
 	- txt* -> qualquer arquivo (diretório) cujo nome inicie com txt. Ex.: txtteste, txt_teste, txt-casa.teste
 	- *txt* -> qualquer arquivo (diretório) cujo nome contenha txt. Ex.: olatxt.teste, teste.txt, txt.teste
+### Interrogação
+	Pode ser interpretada como um carctere qualquer. Porém, substitui apenas um caractere, ou seja, deverá existir um caractere para cada interrogação.
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
