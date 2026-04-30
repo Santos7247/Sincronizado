@@ -26,9 +26,11 @@ comando -dev=/dev/sdc -col 13 -v # comando hipotético
 ~~~bash
 comando 1 ; comando 2 ; comando 3 # exemplo
 
-# Exemplo real
+# Exemplo real (entra no diretório /etc, mostra o conteúdo do arquivo hosts (/etc/hosts), aguarda 60 segundos e desliga a máquina)
 
 cd /etc ; cat hosts ; sleep 60 ; halt -p
+
+# Faz o download do arquivo
 ~~~
 
 
