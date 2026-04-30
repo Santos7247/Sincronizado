@@ -113,7 +113,11 @@ man ls
 
 # Solicita o manual do term. Existem os níveis 5 e 7. Como não foi especificado um níel, o manual apresentará o nível 5
 
-ma
+man term
+
+# Solicita o manual nível 7 do term
+
+man 7 term
 ~~~
 
 # Gerenciamento de arquivos e diretórios
