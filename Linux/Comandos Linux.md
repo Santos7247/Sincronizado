@@ -86,7 +86,7 @@ ls /etc/l[io][!g]*
 ## Comandos de ajuda
 ### Man
 	Manual online. 
-	- /expresão -> Procura pela expressão
+	- /expresão -> Procura pela expressão. Poderá ser utilizada a tecla n que, se pressionada uma vez, irá procurar a próxima ocorrência da expressão. O conjunto de teclas Shift n fará a busca em direção ao início do texto (busc)
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
