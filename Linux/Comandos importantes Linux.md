@@ -39,7 +39,7 @@ wget http://www.xyz.org/imagem.iso ; halt -p
 ~~~bash
 comando 1 | comando 2 | comando 3
 
-# Exemplo real (o primeiro comando lê o conteúdo do arquivo /etc/hosts e o resultado é enviado para o comando grep, que filtra somente as linhas que con)
+# Exemplo real (o primeiro comando lê o conteúdo do arquivo /etc/hosts e o resultado é enviado para o comando grep, que filtra somente as linhas que contém a palavra localhost)
 
 cat /etc/hosts | grep localhost
 ~~~
