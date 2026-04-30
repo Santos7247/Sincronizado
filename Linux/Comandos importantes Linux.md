@@ -77,7 +77,9 @@ ls -R /etc
 	- [Tt]este -> Qualquer arquivo ou diretório que inicie com o caractere T ou com t e que termine com este
 	- [!T]este -> Qualquer arquivo ou diretório que não inicie com o caractere T e que termine com este
 	- teste[0-9].txt -> Qualquer arquivo ou diretório que inicie com teste, seguido de um algarismo de 0 a 9, terminando com .txt
-	- 
+	- teste[0-9][0-9].txt -> Qualquer arquivo ou diretório que inicie com teste, seguido de um algarismo de 0 a 9, seguido novamente de um algarismo de 0 a 9, terminando com .txt
+### Combinação de wildcards
+	Podem ser combinados aumentar o poder 
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
