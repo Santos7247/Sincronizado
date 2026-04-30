@@ -22,7 +22,15 @@ ls -lh
 comando -dev=/dev/sdc -col 13 -v # comando hipotético
 ~~~
 ## Concatenação de comando
-> É possível concatenar comando usando o (;). Isso significa que um comando será executado após o outro
+> É possível concatenar comando usando o (;). Isso significa que um comando será executado após o outro.
+~~~bash
+comando 1 ; comando 2 ; comando 3 # exemplo
+
+# Exemplo real
+
+cd/etc ; cat hosts ; sleep 60 ; halt -p
+~~~
+
 
 # Gerenciamento de arquivos e diretórios
 
