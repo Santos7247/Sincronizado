@@ -30,7 +30,9 @@ comando 1 ; comando 2 ; comando 3 # exemplo
 
 cd /etc ; cat hosts ; sleep 60 ; halt -p
 
-# Faz o download do arquivo
+# Faz o download do arquivo de imagem e, em seguida, desliga a máquina
+
+wget http://www.xyz.org/imagem.iso ; halt -p
 ~~~
 
 
