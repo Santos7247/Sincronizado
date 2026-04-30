@@ -95,7 +95,7 @@ ls /etc/l[io][!g]*
 	Níveis de manual online:
 
 | Nível | Assunto abordado                                                     |
-| ----- | -------------------------------------------------------------------- |
+| ----- | :------------------------------------------------------------------- |
 | 1     | Programas executáveis em comando shell                               |
 | 2     | Chamadas de sistema (system calls)                                   |
 | 3     | Chamadas de bibliotecas (library calls)                              |
@@ -104,7 +104,7 @@ ls /etc/l[io][!g]*
 | 6     | Jogos                                                                |
 | 7     | Diversos                                                             |
 | 8     | Comandos de administração do sistema (geralmente associados ao root) |
-| 9     | Rotinas do                                                           |
+| 9     | Rotinas do kernel                                                    |
 
 
 # Gerenciamento de arquivos e diretórios
