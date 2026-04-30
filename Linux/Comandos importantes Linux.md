@@ -22,7 +22,7 @@ ls -lh
 comando -dev=/dev/sdc -col 13 -v # comando hipotético
 ~~~
 ## Concatenação de comandos
-É possível concatenar comando usando o (;). Isso significa que um comando será executado após o outro.
+	É possível concatenar comando usando o (;). Isso significa que um comando será executado após o outro.
 ~~~bash
 comando 1 ; comando 2 ; comando 3 # exemplo
 
@@ -35,7 +35,7 @@ cd /etc ; cat hosts ; sleep 60 ; halt -p
 wget http://www.xyz.org/imagem.iso ; halt -p
 ~~~
 ## Conexão de comandos
-Conectar comando é fazer com que o resultado gerado por um comando seja processado por outro comando, através da utilização do caractere (|)
+	Conectar comando é fazer com que o resultado gerado por um comando seja processado por outro comando, através da utilização do caractere (|)
 ~~~bash
 comando 1 | comando 2 | comando 3
 
@@ -44,7 +44,7 @@ comando 1 | comando 2 | comando 3
 cat /etc/hosts | grep localhost
 ~~~
 ## Recursividade
-Uma operação é recursiva quando ela varre diretórios. Essa varredura deve ser para baixo.
+	Uma operação é recursiva quando ela varre diretórios. Essa varredura deve ser para baixo.
 ~~~bash
 # Comando não recursivo (mostra somente o conteúdo do diretório /etc)
 
@@ -55,10 +55,10 @@ ls /etc
 ls -R /etc
 ~~~
 ## Wildcards (curingas)
- São caracteres que podem ser utilizados como curingas em alguns comandos, ou seja, podem substituir outros caracteres ou sequências de caracteres. São o (asterisco),  (?) e ([]). Só podem ser utilizados em comandos que manipulam arquivos e diretórios.
+	 São caracteres que podem ser utilizados como curingas em alguns comandos, ou seja, podem substituir outros caracteres ou sequências de caracteres. São o (asterisco),  (?) e ([]). Só podem ser utilizados em comandos que manipulam arquivos e diretórios.
 
 ### Asterisco
-
+	Representa "de zero a infinito"
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
