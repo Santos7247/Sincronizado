@@ -105,7 +105,12 @@ ls /etc/l[io][!g]*
 | 7     | Diversos                                                             |
 | 8     | Comandos de administração do sistema (geralmente associados ao root) |
 | 9     | Rotinas do kernel                                                    |
+Exemplo de uso:
+~~~bash
+# 
 
+man ls 
+~~~
 
 # Gerenciamento de arquivos e diretórios
 
