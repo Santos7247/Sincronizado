@@ -107,9 +107,13 @@ ls /etc/l[io][!g]*
 | 9     | Rotinas do kernel                                                    |
 Exemplo de uso:
 ~~~bash
-# 
+# Solicita o manual on-line do comando ls
 
 man ls 
+
+# Solicita o manual do term. Existem os níveis 5 e 7. Como não foi especificado um níel, o manual apresentará o nível 5
+
+ma
 ~~~
 
 # Gerenciamento de arquivos e diretórios
