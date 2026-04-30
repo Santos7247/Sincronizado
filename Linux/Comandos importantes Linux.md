@@ -5,7 +5,8 @@ Os seguintes elementos compõem um comando Linux:
 - **Argument** (argumento): usado para adicionar informações à requisição. Não é obrigatório para todos os comandos.
 ---
 # Gerência de comandos no shell
-
+## Chaves
+> São opções que podem ser adicionadas aos comandos para que executem algo em especial.
 
 # Gerenciamento de arquivos e diretórios
 
