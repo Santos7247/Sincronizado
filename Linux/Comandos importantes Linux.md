@@ -79,7 +79,10 @@ ls -R /etc
 	- teste[0-9].txt -> Qualquer arquivo ou diretório que inicie com teste, seguido de um algarismo de 0 a 9, terminando com .txt
 	- teste[0-9][0-9].txt -> Qualquer arquivo ou diretório que inicie com teste, seguido de um algarismo de 0 a 9, seguido novamente de um algarismo de 0 a 9, terminando com .txt
 ### Combinação de wildcards
-	Podem ser combinados aumentar o poder 
+	Podem ser combinados aumentar o poder de filtragem em determinados comandos.
+~~~bash
+ls /etc/l[io][!g]*
+~~~
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
