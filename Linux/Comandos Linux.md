@@ -92,6 +92,21 @@ ls /etc/l[io][!g]*
 	- Pade down -> Percorre o manual (para baixo)
 	- q -> sai do ambiente man
 
+	Níveis de manual online:
+
+| Nível | Assunto abordado                       |
+| ----- | -------------------------------------- |
+| 1     | Programas executáveis em comando shell |
+| 2     | Chamadas de sistema (system calls)     |
+| 3     |                                        |
+| 4     |                                        |
+| 5     |                                        |
+| 6     |                                        |
+| 7     |                                        |
+| 8     |                                        |
+| 9     |                                        |
+
+
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
