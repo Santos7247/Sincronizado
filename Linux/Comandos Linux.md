@@ -23,7 +23,7 @@ comando -dev=/dev/sdc -col 13 -v # comando hipotético
 ~~~
 ## Concatenação de comandos
 	É possível concatenar comando usando o (;). Isso significa que um comando será executado após o outro.
-~~~bash
+~~~shell
 comando 1 ; comando 2 ; comando 3 # exemplo
 
 # Exemplo real (entra no diretório /etc, mostra o conteúdo do arquivo hosts (/etc/hosts), aguarda 60 segundos e desliga a máquina)
