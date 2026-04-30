@@ -79,7 +79,7 @@ ls -R /etc
 	- teste[0-9].txt -> Qualquer arquivo ou diretório que inicie com teste, seguido de um algarismo de 0 a 9, terminando com .txt
 	- teste[0-9][0-9].txt -> Qualquer arquivo ou diretório que inicie com teste, seguido de um algarismo de 0 a 9, seguido novamente de um algarismo de 0 a 9, terminando com .txt
 ### Combinação de wildcards
-	Podem ser combinados aumentar o poder de filtragem em determinados comandos.
+	Podem ser combinados para aumentar o poder de filtragem em determinados comandos.
 ~~~bash
 ls /etc/l[io][!g]*
 ~~~
