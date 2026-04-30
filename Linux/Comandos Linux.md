@@ -86,7 +86,7 @@ ls /etc/l[io][!g]*
 ## Comandos de ajuda
 ### Man
 	Manual online.
-	
+	Algumas opções interativas:
 	- /expresão -> Procura pela expressão. Poderá ser utilizada a tecla n que, se pressionada uma vez, irá procurar a próxima ocorrência da expressão. O conjunto de teclas Shift n fará a busca em direção ao início do texto (busca para trás).
 	- Page up -> Percore o manual (para cima)
 	- Pade down -> Percorre o manual (para baixo)
