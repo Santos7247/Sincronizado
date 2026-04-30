@@ -43,6 +43,8 @@ comando 1 | comando 2 | comando 3
 
 cat /etc/hosts | grep localhost
 ~~~
+## Recursividade
+> Uma operação é recursiva quando ela varre diretórios. Essa varredura de
 
 # Gerenciamento de arquivos e diretórios
 
