@@ -86,7 +86,8 @@ ls /etc/l[io][!g]*
 ## Comandos de ajuda
 ### Man
 	Manual online. 
-			Opção
+| Opção | Função |
+
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
