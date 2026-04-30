@@ -44,7 +44,14 @@ comando 1 | comando 2 | comando 3
 cat /etc/hosts | grep localhost
 ~~~
 ## Recursividade
-> Uma operação é recursiva quando ela varre diretórios. Essa varredura de
+> Uma operação é recursiva quando ela varre diretórios. Essa varredura deve ser para baixo.
+~~~bash
+# Comando não recursivo (mostra somente o conteúdo do diretório /etc)
+
+ls /etc
+
+# Comando recursivo
+~~~
 
 # Gerenciamento de arquivos e diretórios
 
