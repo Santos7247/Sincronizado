@@ -50,9 +50,12 @@ cat /etc/hosts | grep localhost
 
 ls /etc
 
-# Comando recursivo
-~~~
+# Comando recursivo (mostra o conteúdo do diretório /etc e de todos os seus subdiretórios)
 
+ls -R /etc
+~~~
+## Wildcards (curingas)
+> São caracteres que pode
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
