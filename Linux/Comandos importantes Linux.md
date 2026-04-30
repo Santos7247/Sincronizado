@@ -6,9 +6,15 @@ Os seguintes elementos compõem um comando Linux:
 ---
 # Gerência de comandos no shell
 ## Chaves
-> São opções que podem ser adicionadas aos comandos para que executem algo em especial.
+> São opções que podem ser adicionadas aos comandos para que executem algo em especial. A implementação das chaves é feita com o caractere (-)
 ~~~bash
+# Mais de uma chave no mesmo comando
 ls -l -h
+
+# A ordem das chaves não importa
+ls -h -l
+
+# 
 ~~~
 
 # Gerenciamento de arquivos e diretórios
