@@ -11,10 +11,11 @@ Os seguintes elementos compõem um comando Linux:
 # Mais de uma chave no mesmo comando
 ls -l -h
 
-# A ordem das chaves não importa
+# A ordem das chaves não importa (a não ser em casos especiais)
 ls -h -l
 
-# 
+# Fusão de chaves
+ls -lh
 ~~~
 
 # Gerenciamento de arquivos e diretórios
