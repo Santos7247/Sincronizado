@@ -22,7 +22,7 @@ ls -lh
 comando -dev=/dev/sdc -col 13 -v # comando hipotético
 ~~~
 ## Concatenação de comandos
-	É possível concatenar comando usando o (;). Isso significa que um comando será executado após o outro.
+É possível concatenar comando usando o (;). Isso significa que um comando será executado após o outro.
 ~~~shell
 comando 1 ; comando 2 ; comando 3 # exemplo
 
@@ -35,7 +35,7 @@ cd /etc ; cat hosts ; sleep 60 ; halt -p
 wget http://www.xyz.org/imagem.iso ; halt -p
 ~~~
 ## Conexão de comandos
-	Conectar comando é fazer com que o resultado gerado por um comando seja processado por outro comando, através da utilização do caractere (|)
+Conectar comando é fazer com que o resultado gerado por um comando seja processado por outro comando, através da utilização do caractere (|)
 ~~~bash
 comando 1 | comando 2 | comando 3
 
@@ -44,7 +44,7 @@ comando 1 | comando 2 | comando 3
 cat /etc/hosts | grep localhost
 ~~~
 ## Recursividade
-	Uma operação é recursiva quando ela varre diretórios. Essa varredura deve ser para baixo.
+Uma operação é recursiva quando ela varre diretórios. Essa varredura deve ser para baixo.
 ~~~bash
 # Comando não recursivo (mostra somente o conteúdo do diretório /etc)
 
@@ -55,18 +55,18 @@ ls /etc
 ls -R /etc
 ~~~
 ## Wildcards (curingas)
-	 São caracteres que podem ser utilizados como curingas em alguns comandos, ou seja, podem substituir outros caracteres ou sequências de caracteres. São o (asterisco),  (?) e ([]). Só podem ser utilizados em comandos que manipulam arquivos e diretórios.
+ São caracteres que podem ser utilizados como curingas em alguns comandos, ou seja, podem substituir outros caracteres ou sequências de caracteres. São o (asterisco),  (?) e ([]). Só podem ser utilizados em comandos que manipulam arquivos e diretórios.
 ### Asterisco
-	Representa "de zero a infinito". Exemplos:
+Representa "de zero a infinito". Exemplos:
 	- *txt -> qualquer arquivo (diretório) cujo nome seja ou termine com txt. Ex.: teste.txt, eu.sou_legal.txt
 	- txt* -> qualquer arquivo (diretório) cujo nome inicie com txt. Ex.: txtteste, txt_teste, txt-casa.teste
 	- *txt* -> qualquer arquivo (diretório) cujo nome contenha txt. Ex.: olatxt.teste, teste.txt, txt.teste
 ### Interrogação
-	Pode ser interpretada como um carctere qualquer. Porém, substitui apenas um caractere, ou seja, deverá existir um caractere para cada interrogação. Exemplos:
+Pode ser interpretada como um carctere qualquer. Porém, substitui apenas um caractere, ou seja, deverá existir um caractere para cada interrogação. Exemplos:
 	- teste.??? -> Qualquer arquivo ou diretório iniciado com teste., seguido de três caracteres quaisquer.
 	- t???e -> Qualquer arquivo ou diretório iniciado com o caractere t, seguido de três caracteres quaisquer e terminado com e.
 ### Colchetes
-	Servem para definir possibilidades de caracteres. Os caracteres (^) e (!) podem ser usados como negação. O caractere (-) pode ser usado para definir intervalos, seguindo a tabela ASCII.
+Servem para definir possibilidades de caracteres. Os caracteres (^) e (!) podem ser usados como negação. O caractere (-) pode ser usado para definir intervalos, seguindo a tabela ASCII.
 	Exemplo de sintaxe com colchetes:
 	- [ABCde15] -> Qualquer um dos caracteres citados
 	- [A-Z] -> Qualquer caractere de A a Z (maiúsculo)
@@ -79,20 +79,20 @@ ls -R /etc
 	- teste[0-9].txt -> Qualquer arquivo ou diretório que inicie com teste, seguido de um algarismo de 0 a 9, terminando com .txt
 	- teste[0-9][0-9].txt -> Qualquer arquivo ou diretório que inicie com teste, seguido de um algarismo de 0 a 9, seguido novamente de um algarismo de 0 a 9, terminando com .txt
 ### Combinação de wildcards
-	Podem ser combinados para aumentar o poder de filtragem em determinados comandos.
+Podem ser combinados para aumentar o poder de filtragem em determinados comandos.
 ~~~bash
 ls /etc/l[io][!g]*
 ~~~
 ## Comandos de ajuda
 ### Man
-	Manual online.
+Manual online.
 	Algumas opções interativas:
 	- /expresão -> Procura pela expressão. Poderá ser utilizada a tecla n que, se pressionada uma vez, irá procurar a próxima ocorrência da expressão. O conjunto de teclas Shift n fará a busca em direção ao início do texto (busca para trás).
 	- Page up -> Percore o manual (para cima)
 	- Pade down -> Percorre o manual (para baixo)
 	- q -> sai do ambiente man
 
-	Níveis de manual online:
+Níveis de manual online:
 
 | Nível | Assunto abordado                                                     |
 | ----- | :------------------------------------------------------------------- |
