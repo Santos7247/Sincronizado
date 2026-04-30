@@ -62,7 +62,9 @@ ls -R /etc
 	- txt* -> qualquer arquivo (diretório) cujo nome inicie com txt. Ex.: txtteste, txt_teste, txt-casa.teste
 	- *txt* -> qualquer arquivo (diretório) cujo nome contenha txt. Ex.: olatxt.teste, teste.txt, txt.teste
 ### Interrogação
-	Pode ser interpretada como um carctere qualquer. Porém, substitui apenas um caractere, ou seja, deverá existir um caractere para cada interrogação.
+	Pode ser interpretada como um carctere qualquer. Porém, substitui apenas um caractere, ou seja, deverá existir um caractere para cada interrogação. Exemplos:
+	- teste.??? -> Qualquer arquivo ou diretório iniciado com teste., seguido de três caracteres quaisquer.
+	- t???e -> Qualquer arquivo ou diret
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
