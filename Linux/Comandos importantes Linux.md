@@ -64,7 +64,8 @@ ls -R /etc
 ### Interrogação
 	Pode ser interpretada como um carctere qualquer. Porém, substitui apenas um caractere, ou seja, deverá existir um caractere para cada interrogação. Exemplos:
 	- teste.??? -> Qualquer arquivo ou diretório iniciado com teste., seguido de três caracteres quaisquer.
-	- t???e -> Qualquer arquivo ou diret
+	- t???e -> Qualquer arquivo ou diretório iniciado com o caractere t, seguido de três caracteres quaisquer e terminado com e.
+	- 
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
