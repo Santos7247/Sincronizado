@@ -38,6 +38,10 @@ wget http://www.xyz.org/imagem.iso ; halt -p
 > Conectar comando é fazer com que o resultado gerado por um comando seja processado por outro comando, através da utilização do caractere (|)
 ~~~bash
 comando 1 | comando 2 | comando 3
+
+# Exemplo real (o primeiro comando lê o conteúdo do arquivo /etc/hosts e o resultado é enviado para o comando grep, que filtra somente as linhas que con)
+
+cat /etc/hosts | grep localhost
 ~~~
 
 # Gerenciamento de arquivos e diretórios
