@@ -59,7 +59,7 @@ ls -R /etc
 
 ### Asterisco
 	Representa "de zero a infinito". Exemplos:
-	- *txt -> qualquer arquivo (diretório) 
+	- *txt -> qualquer arquivo (diretório) cujo nome seja ou termine com txt. Ex.: teste.txt, eu.sou_legal 
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
