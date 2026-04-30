@@ -28,7 +28,7 @@ comando 1 ; comando 2 ; comando 3 # exemplo
 
 # Exemplo real
 
-cd/etc ; cat hosts ; sleep 60 ; halt -p
+cd /etc ; cat hosts ; sleep 60 ; halt -p
 ~~~
 
 
