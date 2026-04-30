@@ -67,7 +67,10 @@ ls -R /etc
 	- t???e -> Qualquer arquivo ou diretório iniciado com o caractere t, seguido de três caracteres quaisquer e terminado com e.
 ### Colchetes
 	Servem para definir possibilidades de caracteres. Os caracteres (^) e (!) podem ser usados como negação. O caractere (-) pode ser usado para definir intervalos, seguindo a tabela ASCII.
-	- [ABCde15] 
+	- [ABCde15] -> Qualquer um dos caracteres citados
+	- [A-Z] -> Qualquer caractere de A a Z (maiúsculo)
+	- [0-9] -> Qualquer número de 0 a 9
+	- []
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
