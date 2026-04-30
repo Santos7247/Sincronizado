@@ -21,6 +21,8 @@ ls -lh
 
 comando -dev=/dev/sdc -col 13 -v # comando hipotético
 ~~~
+## Concatenação de comando
+> É possível concatenar comando usando o (;). Isso significa que um comando será executado após o outro
 
 # Gerenciamento de arquivos e diretórios
 
