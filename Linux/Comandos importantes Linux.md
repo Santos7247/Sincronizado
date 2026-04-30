@@ -61,7 +61,7 @@ ls -R /etc
 	Representa "de zero a infinito". Exemplos:
 	- *txt -> qualquer arquivo (diretório) cujo nome seja ou termine com txt. Ex.: teste.txt, eu.sou_legal.txt
 	- txt* -> qualquer arquivo (diretório) cujo nome inicie com txt. Ex.: txtteste, txt_teste, txt-casa.teste
-	- *txt* 
+	- *txt* -> qualquer arquivo (diretório) cujo nome contenha txt. Ex.: olatxt.teste, teste.txt, txt.teste
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
