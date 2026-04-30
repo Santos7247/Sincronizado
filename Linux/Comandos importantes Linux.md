@@ -55,7 +55,10 @@ ls /etc
 ls -R /etc
 ~~~
 ## Wildcards (curingas)
-> São caracteres que pode
+> São caracteres que podem ser utilizados como curingas em alguns comandos, ou seja, podem substituir outros caracteres ou sequências de caracteres. São o (*), ()
+~~~bash
+
+~~~
 # Gerenciamento de arquivos e diretórios
 
 > **ls** - possibilita a visualização de todos os conteúdos contidos em um diretório. Para visualizar outros repositórios, é preciso escrever ls e incluir o caminho do diretório.
