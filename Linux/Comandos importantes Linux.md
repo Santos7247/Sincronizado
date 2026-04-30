@@ -35,7 +35,10 @@ cd /etc ; cat hosts ; sleep 60 ; halt -p
 wget http://www.xyz.org/imagem.iso ; halt -p
 ~~~
 ## Conexão de comandos
-> Conectar comando
+> Conectar comando é fazer com que o resultado gerado por um comando seja processado por outro comando, através da utilização do caractere (|)
+~~~bash
+comando 1 | comando 2 | comando 3
+~~~
 
 # Gerenciamento de arquivos e diretórios
 
