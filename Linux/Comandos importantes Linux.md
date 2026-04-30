@@ -19,7 +19,7 @@ ls -lh
 
 # A fusão de chaves não é válida quando quando uma das chaves requer parâmetros ou quando é expressa por mais de um caractere
 
-comando
+comando -dev=/dev/sdc -col 13 -v # comando hipotético
 ~~~
 
 # Gerenciamento de arquivos e diretórios
