@@ -124,5 +124,4 @@ if (Test-NetConnection $ip -Port $porta -WarningAction SilentlyContinue -Informa
 	echo "Porta $porta fechada"
 }} catch {}
 }
-
 ~~~
